@@ -62,6 +62,7 @@ projects[] = google_analytics
 projects[] = insert
 projects[] = l10n_update
 projects[] = libraries
+projects[] = link
 projects[] = mollom
 projects[] = nodereference_url
 projects[] = pathauto
