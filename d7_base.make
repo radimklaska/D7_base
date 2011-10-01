@@ -32,15 +32,14 @@ projects[drupal][version] = 7
 ; Specific versions and other unusual stuff
 
 ; version
-;projects[imageinfo_cache][type] = module
-;projects[imageinfo_cache][download][type] = file
-;projects[imageinfo_cache][download][url] = http://ftp.drupal.org/files/projects/imageinfo_cache-6.x-1.x-dev.tar.gz
+;projects[core_library][type] = module
+;projects[core_library][download][type] = file
+;projects[core_library][download][url] = http://ftp.drupal.org/files/projects/core_library-7.x-2.0-alpha7.tar.gz
 
 
 
 ; Common modules
 
-projects[] = core_library
 projects[] = admin_menu
 projects[] = agrcache
 projects[] = backup_migrate
