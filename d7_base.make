@@ -32,9 +32,9 @@ projects[drupal][version] = 7
 ; Specific versions and other unusual stuff
 
 ; version
-;projects[core_library][type] = module
-;projects[core_library][download][type] = file
-;projects[core_library][download][url] = http://ftp.drupal.org/files/projects/core_library-7.x-2.0-alpha7.tar.gz
+projects[core_library][type] = module
+projects[core_library][download][type] = file
+projects[core_library][download][url] = http://ftp.drupal.org/files/projects/core_library-7.x-2.0-alpha7.tar.gz
 
 
 
