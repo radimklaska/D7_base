@@ -84,6 +84,7 @@ projects[] = views_slideshow
 ; Themes
 ; --------
 projects[] = acquia_prosper
+projects[] = adaptivetheme
 projects[] = fusion
 projects[] = ninesixty
 projects[] = rootcandy
