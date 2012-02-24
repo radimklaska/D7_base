@@ -49,16 +49,19 @@ projects[] = backup_migrate
 projects[] = blockcache_alter
 projects[] = boost
 projects[] = css_emimage
+projects[] = colorbox
 projects[] = ctools
 projects[] = devel
 projects[] = diff
 projects[] = entity
 projects[] = extlink
+projects[] = features
 projects[] = field_delimiter
 projects[] = field_formatter_settings
 projects[] = field_group
 projects[] = field_injector
 projects[] = field_multiple_limit
+projects[] = field_permissions
 projects[] = filefield_nginx_progress
 projects[] = filefield_paths
 projects[] = filefield_sources
@@ -90,6 +93,40 @@ projects[] = views_slideshow
 projects[] = wikitools
 projects[] = wysiwyg
 
+
+
+; Drupal Commerce
+
+projects[] = commerce
+projects[] = commerce_price_history
+projects[] = commerce_extra_price_formatters
+projects[] = commerce_vbo_views
+projects[] = commerce_google_analytics
+projects[] = commerce_multicurrency
+projects[] = commerce_sp
+projects[] = commerce_features
+projects[] = commerce_credits
+projects[] = commerce_migrate
+projects[] = commerce_bpc
+projects[] = commerce_file
+projects[] = commerce_option
+projects[] = commerce_shipping
+projects[] = commerce_flat_rate
+projects[] = physical
+projects[] = commerce_physical
+; Check in the future:
+;projects[] = commerce_invoice
+;projects[] = commerce_email
+
+
+
+; Ubercart
+
+projects[] = ubercart
+projects[] = uc_gopay
+
+
+
 ; Themes
 ; --------
 projects[] = acquia_prosper
@@ -97,6 +134,7 @@ projects[] = adaptivetheme
 projects[] = fusion
 projects[] = ninesixty
 projects[] = rootcandy
+
 
 
 ; Libraries
