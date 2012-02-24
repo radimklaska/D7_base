@@ -15,6 +15,9 @@ api = 2
 
 ; Drupal 7.x core:
 projects[drupal][version] = 7
+; Remove testing profile
+; More info: https://github.com/radimklaska/D7-remove-testing-profile-patch/blob/master/README
+projects[drupal][patch][] = "https://raw.github.com/radimklaska/D7-remove-testing-profile-patch/master/remove_testing.patch"
 
 
 
