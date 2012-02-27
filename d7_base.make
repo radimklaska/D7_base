@@ -48,6 +48,7 @@ projects[] = agrcache
 projects[] = backup_migrate
 projects[] = blockcache_alter
 projects[] = boost
+projects[] = css_injector
 projects[] = css_emimage
 projects[] = colorbox
 projects[] = ctools
