@@ -34,10 +34,10 @@ projects[drupal][patch][] = "https://raw.github.com/radimklaska/D7-remove-testin
 
 ; Specific versions and other unusual stuff
 
-; version
-projects[core_library][type] = module
-projects[core_library][download][type] = file
-projects[core_library][download][url] = http://ftp.drupal.org/files/projects/core_library-7.x-2.0-alpha7.tar.gz
+; version (moved to common)
+;projects[core_library][type] = module
+;projects[core_library][download][type] = file
+;projects[core_library][download][url] = http://ftp.drupal.org/files/projects/core_library-7.x-2.0-alpha7.tar.gz
 
 
 
@@ -51,6 +51,7 @@ projects[] = boost
 projects[] = css_injector
 projects[] = css_emimage
 projects[] = colorbox
+projects[] = core_library
 projects[] = ctools
 projects[] = devel
 projects[] = diff
