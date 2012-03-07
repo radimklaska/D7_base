@@ -100,6 +100,7 @@ projects[] = wysiwyg
 ; Drupal Commerce
 
 projects[] = commerce
+projects[] = addressfield
 projects[] = commerce_price_history
 projects[] = commerce_extra_price_formatters
 projects[] = commerce_vbo_views
