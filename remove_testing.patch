@@ -1,0 +1,124 @@
+From 2744658480b8e8fa4807796bf1c6cc743b1780b1 Mon Sep 17 00:00:00 2001
+From: Radim Klaska <radim@klaska.net>
+Date: Fri, 24 Feb 2012 10:12:51 +0100
+Subject: [PATCH] rm testing
+
+---
+ .../drupal_system_listing_compatible_test.info     |   12 ------------
+ .../drupal_system_listing_compatible_test.module   |    1 -
+ .../drupal_system_listing_incompatible_test.info   |   15 ---------------
+ .../drupal_system_listing_incompatible_test.module |    1 -
+ profiles/testing/testing.info                      |   11 -----------
+ profiles/testing/testing.install                   |   15 ---------------
+ profiles/testing/testing.profile                   |    2 --
+ 7 files changed, 0 insertions(+), 57 deletions(-)
+ delete mode 100644 profiles/testing/modules/drupal_system_listing_compatible_test/drupal_system_listing_compatible_test.info
+ delete mode 100644 profiles/testing/modules/drupal_system_listing_compatible_test/drupal_system_listing_compatible_test.module
+ delete mode 100644 profiles/testing/modules/drupal_system_listing_incompatible_test/drupal_system_listing_incompatible_test.info
+ delete mode 100644 profiles/testing/modules/drupal_system_listing_incompatible_test/drupal_system_listing_incompatible_test.module
+ delete mode 100644 profiles/testing/testing.info
+ delete mode 100644 profiles/testing/testing.install
+ delete mode 100644 profiles/testing/testing.profile
+
+diff --git a/profiles/testing/modules/drupal_system_listing_compatible_test/drupal_system_listing_compatible_test.info b/profiles/testing/modules/drupal_system_listing_compatible_test/drupal_system_listing_compatible_test.info
+deleted file mode 100644
+index 82e993a..0000000
+--- a/profiles/testing/modules/drupal_system_listing_compatible_test/drupal_system_listing_compatible_test.info
++++ /dev/null
+@@ -1,12 +0,0 @@
+-name = "Drupal system listing compatible test"
+-description = "Support module for testing the drupal_system_listing function."
+-package = Testing
+-version = VERSION
+-core = 7.x
+-hidden = TRUE
+-
+-; Information added by drupal.org packaging script on 2012-02-01
+-version = "7.12"
+-project = "drupal"
+-datestamp = "1328134560"
+-
+diff --git a/profiles/testing/modules/drupal_system_listing_compatible_test/drupal_system_listing_compatible_test.module b/profiles/testing/modules/drupal_system_listing_compatible_test/drupal_system_listing_compatible_test.module
+deleted file mode 100644
+index b3d9bbc..0000000
+--- a/profiles/testing/modules/drupal_system_listing_compatible_test/drupal_system_listing_compatible_test.module
++++ /dev/null
+@@ -1 +0,0 @@
+-<?php
+diff --git a/profiles/testing/modules/drupal_system_listing_incompatible_test/drupal_system_listing_incompatible_test.info b/profiles/testing/modules/drupal_system_listing_incompatible_test/drupal_system_listing_incompatible_test.info
+deleted file mode 100644
+index e4b602f..0000000
+--- a/profiles/testing/modules/drupal_system_listing_incompatible_test/drupal_system_listing_incompatible_test.info
++++ /dev/null
+@@ -1,15 +0,0 @@
+-name = "Drupal system listing incompatible test"
+-description = "Support module for testing the drupal_system_listing function."
+-package = Testing
+-version = VERSION
+-; This deliberately has the wrong core version, to test that it does not take
+-; precedence over the version of the same module that is in the
+-; modules/simpletest/tests directory.
+-core = 6.x
+-hidden = TRUE
+-
+-; Information added by drupal.org packaging script on 2012-02-01
+-version = "7.12"
+-project = "drupal"
+-datestamp = "1328134560"
+-
+diff --git a/profiles/testing/modules/drupal_system_listing_incompatible_test/drupal_system_listing_incompatible_test.module b/profiles/testing/modules/drupal_system_listing_incompatible_test/drupal_system_listing_incompatible_test.module
+deleted file mode 100644
+index b3d9bbc..0000000
+--- a/profiles/testing/modules/drupal_system_listing_incompatible_test/drupal_system_listing_incompatible_test.module
++++ /dev/null
+@@ -1 +0,0 @@
+-<?php
+diff --git a/profiles/testing/testing.info b/profiles/testing/testing.info
+deleted file mode 100644
+index a792585..0000000
+--- a/profiles/testing/testing.info
++++ /dev/null
+@@ -1,11 +0,0 @@
+-name = Testing
+-description = Minimal profile for running tests. Includes absolutely required modules only.
+-version = VERSION
+-core = 7.x
+-hidden = TRUE
+-
+-; Information added by drupal.org packaging script on 2012-02-01
+-version = "7.12"
+-project = "drupal"
+-datestamp = "1328134560"
+-
+diff --git a/profiles/testing/testing.install b/profiles/testing/testing.install
+deleted file mode 100644
+index 192704d..0000000
+--- a/profiles/testing/testing.install
++++ /dev/null
+@@ -1,15 +0,0 @@
+-<?php
+-
+-/**
+- * Implements hook_install().
+- *
+- * Perform actions to set up the site for this profile.
+- */
+-function testing_install() {
+-  // Allow visitor account creation, but with administrative approval.
+-  variable_set('user_register', USER_REGISTER_VISITORS_ADMINISTRATIVE_APPROVAL);
+-
+-  // Enable default permissions for system roles.
+-  user_role_grant_permissions(DRUPAL_ANONYMOUS_RID, array('access content'));
+-  user_role_grant_permissions(DRUPAL_AUTHENTICATED_RID, array('access content'));
+-}
+diff --git a/profiles/testing/testing.profile b/profiles/testing/testing.profile
+deleted file mode 100644
+index a4abe2d..0000000
+--- a/profiles/testing/testing.profile
++++ /dev/null
+@@ -1,2 +0,0 @@
+-<?php
+-
+-- 
+1.7.4.msysgit.0
+
