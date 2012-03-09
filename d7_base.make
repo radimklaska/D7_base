@@ -59,6 +59,11 @@ projects[] = diff
 projects[] = entity
 projects[] = extlink
 projects[] = features
+projects[] = feeds
+projects[] = feeds_xpathparser
+projects[] = feeds_fetcher_directory
+projects[] = feeds_youtube
+projects[] = feeds_vimeo
 projects[] = field_delimiter
 projects[] = field_formatter_settings
 projects[] = field_group
@@ -119,9 +124,15 @@ projects[] = commerce_flat_rate
 projects[] = commerce_coupon
 projects[] = physical
 projects[] = commerce_physical
+projects[] = commerce_devel
+projects[] = commerce_feeds
+projects[] = commerce_order_ftp_export
+projects[] = commerce_moa
+projects[] = commerce_checkout_progress
 ; Check in the future:
 ;projects[] = commerce_invoice
 ;projects[] = commerce_email
+;projects[] = commerce_addressbook
 
 
 
