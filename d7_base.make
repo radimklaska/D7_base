@@ -116,6 +116,7 @@ projects[] = commerce_file
 projects[] = commerce_option
 projects[] = commerce_shipping
 projects[] = commerce_flat_rate
+projects[] = commerce_coupon
 projects[] = physical
 projects[] = commerce_physical
 ; Check in the future:
