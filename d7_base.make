@@ -85,6 +85,7 @@ projects[] = libraries
 projects[] = link
 projects[] = migrate
 projects[] = migrate_extras
+projects[] = module_filter
 projects[] = mollom
 projects[] = nodereference_url
 projects[] = pathauto
