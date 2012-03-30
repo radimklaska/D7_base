@@ -67,6 +67,7 @@ projects[] = feeds_fetcher_directory
 projects[] = feeds_youtube
 projects[] = feeds_vimeo
 projects[] = field_delimiter
+projects[] = field_extrawidgets
 projects[] = field_formatter_settings
 projects[] = field_group
 projects[] = field_injector
