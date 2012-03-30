@@ -44,6 +44,7 @@ projects[drupal][patch][] = "https://raw.github.com/radimklaska/D7_base/master/r
 
 ; Common modules
 
+projects[] = admin
 projects[] = admin_menu
 projects[] = agrcache
 projects[] = auto_nodetitle
@@ -53,6 +54,7 @@ projects[] = boost
 projects[] = css_injector
 projects[] = css_emimage
 projects[] = colorbox
+projects[] = context
 projects[] = core_library
 projects[] = ctools
 projects[] = date
@@ -67,6 +69,7 @@ projects[] = feeds_fetcher_directory
 projects[] = feeds_youtube
 projects[] = feeds_vimeo
 projects[] = field_delimiter
+projects[] = field_extrawidgets
 projects[] = field_formatter_settings
 projects[] = field_group
 projects[] = field_injector
