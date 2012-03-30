@@ -55,6 +55,7 @@ projects[] = css_emimage
 projects[] = colorbox
 projects[] = core_library
 projects[] = ctools
+projects[] = date
 projects[] = devel
 projects[] = diff
 projects[] = entity
