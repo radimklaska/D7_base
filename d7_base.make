@@ -53,6 +53,7 @@ projects[] = boost
 projects[] = css_injector
 projects[] = css_emimage
 projects[] = colorbox
+projects[] = context
 projects[] = core_library
 projects[] = ctools
 projects[] = date
