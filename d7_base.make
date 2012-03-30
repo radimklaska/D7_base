@@ -44,6 +44,7 @@ projects[drupal][patch][] = "https://raw.github.com/radimklaska/D7_base/master/r
 
 ; Common modules
 
+projects[] = admin
 projects[] = admin_menu
 projects[] = agrcache
 projects[] = auto_nodetitle
