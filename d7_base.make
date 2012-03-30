@@ -79,6 +79,7 @@ projects[] = flood_control
 projects[] = globalredirect
 projects[] = google_analytics
 projects[] = insert
+projects[] = job_scheduler
 projects[] = l10n_update
 projects[] = libraries
 projects[] = link
