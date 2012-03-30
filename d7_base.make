@@ -46,6 +46,7 @@ projects[drupal][patch][] = "https://raw.github.com/radimklaska/D7_base/master/r
 
 projects[] = admin_menu
 projects[] = agrcache
+projects[] = auto_nodetitle
 projects[] = backup_migrate
 projects[] = blockcache_alter
 projects[] = boost
@@ -165,6 +166,9 @@ libraries[jqueryui][download][url] = "https://ajax.googleapis.com/ajax/libs/jque
 
 libraries[jwysiwyg][download][type] = "file"
 libraries[jwysiwyg][download][url] = "http://jwysiwyg.googlecode.com/svn/tags/0.6/jwysiwyg/jquery.wysiwyg.js"
+
+libraries[jquery.cycle][download][type] = "file"
+libraries[jquery.cycle][download][url] = "http://malsup.github.com/jquery.cycle.all.js"
 
 
 
