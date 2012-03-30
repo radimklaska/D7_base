@@ -46,6 +46,7 @@ projects[drupal][patch][] = "https://raw.github.com/radimklaska/D7_base/master/r
 
 projects[] = admin_menu
 projects[] = agrcache
+projects[] = auto_nodetitle
 projects[] = backup_migrate
 projects[] = blockcache_alter
 projects[] = boost
