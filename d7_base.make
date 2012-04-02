@@ -38,6 +38,10 @@ projects[drupal][patch][] = "https://raw.github.com/radimklaska/D7_base/master/r
 ; http://drupal.org/node/442560
 projects[admin_menu][version] = 3.x-dev
 
+projects[draggableviews][version] = 2.0-beta1
+projects[phone][version] = 1.x-dev
+projects[eva][version] = 1.1
+
 
 
 ; Common modules
