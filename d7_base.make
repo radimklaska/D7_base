@@ -44,6 +44,7 @@ projects[admin_menu][version] = 3.x-dev
 
 projects[] = admin
 ;projects[] = admin_menu
+projects[] = admin_views
 projects[] = agrcache
 projects[] = auto_nodetitle
 projects[] = backup_migrate
