@@ -35,17 +35,15 @@ projects[drupal][patch][] = "https://raw.github.com/radimklaska/D7_base/master/r
 
 ; Specific versions and other unusual stuff
 
-; version (moved to common)
-;projects[core_library][type] = module
-;projects[core_library][download][type] = file
-;projects[core_library][download][url] = http://ftp.drupal.org/files/projects/core_library-7.x-2.0-alpha7.tar.gz
+; http://drupal.org/node/442560
+projects[admin_menu][version] = 3.x-dev
 
 
 
 ; Common modules
 
 projects[] = admin
-projects[] = admin_menu
+;projects[] = admin_menu
 projects[] = agrcache
 projects[] = auto_nodetitle
 projects[] = backup_migrate
