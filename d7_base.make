@@ -111,7 +111,6 @@ projects[] = variable_clean
 projects[] = views
 projects[] = views_bulk_operations
 projects[] = views_slideshow
-;projects[] = wikitools
 projects[] = wysiwyg
 
 
