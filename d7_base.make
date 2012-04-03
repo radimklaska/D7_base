@@ -110,6 +110,7 @@ projects[] = transliteration
 projects[] = variable_clean
 projects[] = views
 projects[] = views_bulk_operations
+projects[] = views_hacks
 projects[] = views_slideshow
 projects[] = wysiwyg
 
