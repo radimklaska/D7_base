@@ -49,6 +49,7 @@ projects[eva][version] = 1.1
 projects[] = admin
 ;projects[] = admin_menu
 projects[] = admin_views
+projects[] = advanced_help
 projects[] = agrcache
 projects[] = auto_nodetitle
 projects[] = backup_migrate
