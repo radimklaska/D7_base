@@ -86,6 +86,7 @@ projects[] = flag
 projects[] = flood_control
 projects[] = globalredirect
 projects[] = google_analytics
+projects[] = imagematrix
 projects[] = insert
 projects[] = job_scheduler
 projects[] = l10n_update
