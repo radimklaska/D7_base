@@ -111,6 +111,7 @@ projects[] = variable_clean
 projects[] = views
 projects[] = views_bulk_operations
 projects[] = views_hacks
+projects[] = views_infinite_scroll
 projects[] = views_slideshow
 projects[] = wysiwyg
 
@@ -179,6 +180,9 @@ libraries[jwysiwyg][download][url] = "http://jwysiwyg.googlecode.com/svn/tags/0.
 
 libraries[jquery.cycle][download][type] = "file"
 libraries[jquery.cycle][download][url] = "http://malsup.github.com/jquery.cycle.all.js"
+
+libraries[autopager][download][type] = "file"
+libraries[autopager][download][url] = "http://jquery-autopager.googlecode.com/files/jquery.autopager-1.0.0.js"
 
 
 
