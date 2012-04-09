@@ -107,6 +107,7 @@ projects[] = site_verify
 projects[] = skinr
 projects[] = stringoverrides
 projects[] = taxonomy_menu
+projects[] = themekey
 projects[] = token
 projects[] = transliteration
 projects[] = variable_clean
