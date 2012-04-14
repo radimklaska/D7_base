@@ -55,6 +55,7 @@ projects[] = auto_nodetitle
 projects[] = backup_migrate
 projects[] = blockcache_alter
 projects[] = boost
+projects[] = bundle_copy
 projects[] = css_injector
 projects[] = css_emimage
 projects[] = colorbox
