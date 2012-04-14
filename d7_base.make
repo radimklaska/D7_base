@@ -38,6 +38,10 @@ projects[drupal][patch][] = "https://raw.github.com/radimklaska/D7_base/master/r
 ; http://drupal.org/node/442560
 projects[admin_menu][version] = 3.x-dev
 
+projects[draggableviews][version] = 2.0-beta1
+projects[phone][version] = 1.x-dev
+projects[eva][version] = 1.1
+
 
 
 ; Common modules
@@ -45,11 +49,13 @@ projects[admin_menu][version] = 3.x-dev
 projects[] = admin
 ;projects[] = admin_menu
 projects[] = admin_views
+projects[] = advanced_help
 projects[] = agrcache
 projects[] = auto_nodetitle
 projects[] = backup_migrate
 projects[] = blockcache_alter
 projects[] = boost
+projects[] = bundle_copy
 projects[] = css_injector
 projects[] = css_emimage
 projects[] = colorbox
@@ -82,6 +88,7 @@ projects[] = flag
 projects[] = flood_control
 projects[] = globalredirect
 projects[] = google_analytics
+projects[] = imagematrix
 projects[] = insert
 projects[] = job_scheduler
 projects[] = l10n_update
@@ -101,13 +108,15 @@ projects[] = site_verify
 projects[] = skinr
 projects[] = stringoverrides
 projects[] = taxonomy_menu
+projects[] = themekey
 projects[] = token
 projects[] = transliteration
 projects[] = variable_clean
 projects[] = views
 projects[] = views_bulk_operations
+projects[] = views_hacks
+projects[] = views_infinite_scroll
 projects[] = views_slideshow
-;projects[] = wikitools
 projects[] = wysiwyg
 
 
@@ -178,6 +187,9 @@ libraries[jwysiwyg][download][url] = "http://jwysiwyg.googlecode.com/svn/tags/0.
 
 libraries[jquery.cycle][download][type] = "file"
 libraries[jquery.cycle][download][url] = "http://malsup.github.com/jquery.cycle.all.js"
+
+libraries[autopager][download][type] = "file"
+libraries[autopager][download][url] = "http://jquery-autopager.googlecode.com/files/jquery.autopager-1.0.0.js"
 
 
 
