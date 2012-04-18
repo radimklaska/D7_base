@@ -84,6 +84,7 @@ projects[] = field_permissions
 projects[] = filefield_nginx_progress
 projects[] = filefield_paths
 projects[] = filefield_sources
+projects[] = filefield_sources_plupload
 projects[] = flag
 projects[] = flood_control
 projects[] = globalredirect
@@ -100,6 +101,7 @@ projects[] = module_filter
 projects[] = mollom
 projects[] = nodereference_url
 projects[] = pathauto
+projects[] = plupload
 projects[] = references
 projects[] = robotstxt
 projects[] = rules
@@ -187,6 +189,10 @@ libraries[jquery.cycle][download][url] = "http://malsup.github.com/jquery.cycle.
 
 libraries[autopager][download][type] = "file"
 libraries[autopager][download][url] = "http://jquery-autopager.googlecode.com/files/jquery.autopager-1.0.0.js"
+
+libraries[plupload][download][type] = "file"
+libraries[plupload][download][url] = "https://github.com/downloads/moxiecode/plupload/plupload_1_5_4.zip"
+libraries[plupload][destination] = "libraries"
 
 
 
