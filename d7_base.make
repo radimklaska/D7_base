@@ -51,6 +51,7 @@ projects[] = admin
 projects[] = admin_views
 projects[] = advanced_help
 projects[] = agrcache
+projects[] = allow_all_file_extensions
 projects[] = auto_nodetitle
 projects[] = backup_migrate
 projects[] = blockcache_alter
