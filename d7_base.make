@@ -199,9 +199,9 @@ libraries[plupload][download][type] = "file"
 libraries[plupload][download][url] = "https://github.com/downloads/moxiecode/plupload/plupload_1_5_4.zip"
 libraries[plupload][destination] = "libraries"
 
-libraries[lessphp][download][type] = "file"
-libraries[lessphp][download][url] = "https://github.com/downloads/moxiecode/plupload/plupload_1_5_4.zip"
-libraries[lessphp][destination] = "libraries"
+libraries[lessphp][download][type] = "git"
+libraries[lessphp][download][url] = "git://github.com/leafo/lessphp.git"
+libraries[plupload][destination] = "libraries"
 
 libraries[jwysiwyg][download][type] = "file"
 libraries[jwysiwyg][download][url] = "http://jwysiwyg.googlecode.com/svn/tags/0.6/jwysiwyg/jquery.wysiwyg.js"
