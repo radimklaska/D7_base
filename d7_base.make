@@ -43,6 +43,11 @@ projects[draggableviews][version] = 2.0-beta1
 projects[phone][version] = 1.x-dev
 projects[eva][version] = 1.1
 
+; Drush make / drush site-install cannot work with less.module because it's too strict about finding lessphp
+; http://drupal.org/node/1536582
+projects[less][type] = module
+projects[less][patch] = "http://drupal.org/files/1536582-look-harder-for-library-4.patch"
+
 
 
 ; Common modules
@@ -199,9 +204,10 @@ libraries[plupload][download][type] = "file"
 libraries[plupload][download][url] = "https://github.com/downloads/moxiecode/plupload/plupload_1_5_4.zip"
 libraries[plupload][destination] = "libraries"
 
+libraries[lessphp][download][type] = "file"
+libraries[lessphp][download][url] = "https://github.com/downloads/moxiecode/plupload/plupload_1_5_4.zip"
+libraries[lessphp][destination] = "libraries"
 
-
-; START waiting for this issue: http://drupal.org/node/1258660
 libraries[jwysiwyg][download][type] = "file"
 libraries[jwysiwyg][download][url] = "http://jwysiwyg.googlecode.com/svn/tags/0.6/jwysiwyg/jquery.wysiwyg.js"
 libraries[jwysiwyg][destination] = "libraries"
@@ -239,4 +245,3 @@ libraries[openwysiwyg][destination] = "libraries"
 libraries[wymeditor][download][type] = "file"
 libraries[wymeditor][download][url] = "http://www.wymeditor.org/download/file.php?f=wymeditor-0.5-rc-2.tar.gz"
 libraries[wymeditor][destination] = "libraries"
-; STOP waiting for this issue: http://drupal.org/node/1258660
