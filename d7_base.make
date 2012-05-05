@@ -16,9 +16,10 @@ api = 2
 ; Drupal 7.x core:
 projects[drupal][version] = 7
 
+; DOES NOT APPLY ON 7.14
 ; Removes testing instalation profile from Drupal 7. Useful for BOA users.
 ; Read more: http://groups.drupal.org/node/168304#comment-566019
-projects[drupal][patch][] = "https://raw.github.com/radimklaska/D7_base/master/remove_testing.patch"
+;projects[drupal][patch][] = "https://raw.github.com/radimklaska/D7_base/master/remove_testing.patch"
 
 
 
@@ -51,6 +52,7 @@ projects[] = admin
 projects[] = admin_views
 projects[] = advanced_help
 projects[] = agrcache
+projects[] = allow_all_file_extensions
 projects[] = auto_nodetitle
 projects[] = backup_migrate
 projects[] = blockcache_alter
@@ -180,6 +182,9 @@ libraries[jquery][download][url] = "https://ajax.googleapis.com/ajax/libs/jquery
 
 libraries[jqueryui][download][type] = "file"
 libraries[jqueryui][download][url] = "https://ajax.googleapis.com/ajax/libs/jqueryui/1.8.12/jquery-ui.min.js"
+
+libraries[colorbox][download][type] = git
+libraries[colorbox][download][url] = http://github.com/jackmoore/colorbox.git
 
 libraries[jwysiwyg][download][type] = "file"
 libraries[jwysiwyg][download][url] = "http://jwysiwyg.googlecode.com/svn/tags/0.6/jwysiwyg/jquery.wysiwyg.js"
