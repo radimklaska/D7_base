@@ -43,12 +43,6 @@ projects[draggableviews][version] = 2.0-beta1
 projects[phone][version] = 1.x-dev
 projects[eva][version] = 1.1
 
-; Drush make / drush site-install cannot work with less.module because it's too strict about finding lessphp
-; http://drupal.org/node/1536582
-projects[less][type] = module
-projects[less][patch] = "http://drupal.org/files/1536582-look-harder-for-library-4.patch"
-
-
 
 ; Common modules
 
@@ -100,6 +94,7 @@ projects[] = imagematrix
 projects[] = insert
 projects[] = job_scheduler
 projects[] = l10n_update
+projects[] = less
 projects[] = libraries
 projects[] = link
 projects[] = migrate
