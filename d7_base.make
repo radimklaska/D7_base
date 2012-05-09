@@ -99,6 +99,7 @@ projects[] = libraries
 projects[] = link
 projects[] = migrate
 projects[] = migrate_extras
+projects[] = mobile_codes
 projects[] = module_filter
 projects[] = mollom
 projects[] = nodereference_url
@@ -201,7 +202,7 @@ libraries[plupload][destination] = "libraries"
 
 libraries[lessphp][download][type] = "git"
 libraries[lessphp][download][url] = "git://github.com/leafo/lessphp.git"
-libraries[plupload][destination] = "libraries"
+libraries[lessphp][destination] = "libraries"
 
 libraries[jwysiwyg][download][type] = "file"
 libraries[jwysiwyg][download][url] = "http://jwysiwyg.googlecode.com/svn/tags/0.6/jwysiwyg/jquery.wysiwyg.js"
