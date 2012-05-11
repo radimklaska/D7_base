@@ -25,13 +25,9 @@ projects[drupal][version] = 7
 
 ; Modules
 ; --------
-; Custom modules:
-
-; Tradeimport.cz
-;projects[tradeimport_customs][type] = module
-;projects[tradeimport_customs][download][type] = git
-;projects[tradeimport_customs][download][url] = git://github.com/radimklaska/tradeimport_customs.git
-
+; Custom things are located in separate make file (most of them are private).
+; If you don't have access to those repos, just comment out following line:
+includes[klaska_customs] = "https://raw.github.com/radimklaska/D7_base/master/klaska_customs.make"
 
 
 ; Specific versions and other unusual stuff
@@ -99,6 +95,7 @@ projects[] = libraries
 projects[] = link
 projects[] = migrate
 projects[] = migrate_extras
+projects[] = mobile_codes
 projects[] = module_filter
 projects[] = mollom
 projects[] = nodereference_url
@@ -201,7 +198,7 @@ libraries[plupload][destination] = "libraries"
 
 libraries[lessphp][download][type] = "git"
 libraries[lessphp][download][url] = "git://github.com/leafo/lessphp.git"
-libraries[plupload][destination] = "libraries"
+libraries[lessphp][destination] = "libraries"
 
 libraries[jwysiwyg][download][type] = "file"
 libraries[jwysiwyg][download][url] = "http://jwysiwyg.googlecode.com/svn/tags/0.6/jwysiwyg/jquery.wysiwyg.js"
