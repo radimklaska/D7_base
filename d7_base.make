@@ -27,10 +27,9 @@ projects[drupal][version] = 7
 ; --------
 ; Custom modules:
 
-; Tradeimport.cz
-;projects[tradeimport_customs][type] = module
-;projects[tradeimport_customs][download][type] = git
-;projects[tradeimport_customs][download][url] = git://github.com/radimklaska/tradeimport_customs.git
+projects[klaska_anafe][type] = theme
+projects[klaska_anafe][download][type] = git
+projects[klaska_anafe][download][url] = "git@bitbucket.org:radimklaska/klaska_anafe.git"
 
 
 
