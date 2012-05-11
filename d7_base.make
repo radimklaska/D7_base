@@ -27,7 +27,7 @@ projects[drupal][version] = 7
 ; --------
 ; Custom things are located in separate make file (most of them are private).
 ; If you don't have access to those repos, just comment out following line:
-includes[klaska_customs] = "klaska_customs.make"
+includes[klaska_customs] = "https://raw.github.com/radimklaska/D7_base/master/klaska_customs.make"
 
 
 ; Specific versions and other unusual stuff
