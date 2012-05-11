@@ -25,13 +25,9 @@ projects[drupal][version] = 7
 
 ; Modules
 ; --------
-; Custom modules:
-
-projects[klaska_anafe][type] = theme
-projects[klaska_anafe][download][type] = git
-projects[klaska_anafe][download][url] = "git@bitbucket.org:radimklaska/klaska_anafe.git"
-projects[klaska_anafe][subdir] = custom
-
+; Custom things are located in separate make file (most of them are private).
+; If you don't have access to those repos, just comment out following line:
+includes[klaska_customs] = "klaska_customs.make"
 
 
 ; Specific versions and other unusual stuff
