@@ -169,7 +169,7 @@ projects[] = adaptivetheme
 projects[] = fusion
 projects[] = ninesixty
 projects[] = rootcandy
-
+projects[] = corporateclean
 
 
 ; Libraries
