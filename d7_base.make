@@ -66,6 +66,7 @@ projects[] = diff
 projects[] = entity
 projects[] = extlink
 projects[] = features
+projects[] = features_override
 projects[] = feeds
 projects[] = feeds_xpathparser
 projects[] = feeds_fetcher_directory
