@@ -109,6 +109,7 @@ projects[] = seckit
 projects[] = site_verify
 projects[] = skinr
 projects[] = stringoverrides
+projects[] = strongarm
 projects[] = taxonomy_menu
 projects[] = themekey
 projects[] = token
