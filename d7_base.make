@@ -182,8 +182,9 @@ libraries[jquery][download][url] = "https://ajax.googleapis.com/ajax/libs/jquery
 libraries[jqueryui][download][type] = "file"
 libraries[jqueryui][download][url] = "https://ajax.googleapis.com/ajax/libs/jqueryui/1.8.12/jquery-ui.min.js"
 
-libraries[colorbox][download][type] = git
-libraries[colorbox][download][url] = http://github.com/jackmoore/colorbox.git
+projects[colorbox][type] = library
+projects[colorbox][download][type] = git
+projects[colorbox][download][url] = https://github.com/jackmoore/colorbox.git
 
 libraries[jwysiwyg][download][type] = "file"
 libraries[jwysiwyg][download][url] = "http://jwysiwyg.googlecode.com/svn/tags/0.6/jwysiwyg/jquery.wysiwyg.js"
