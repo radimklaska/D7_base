@@ -164,6 +164,16 @@ projects[] = uc_gopay
 
 
 
+; Omega theme and support modules
+; --------
+projects[] = omega
+projects[] = delta
+projects[] = omega_tools
+; Check in the future:
+;projects[] = omega_ui
+
+
+
 ; Themes
 ; --------
 projects[] = acquia_prosper
