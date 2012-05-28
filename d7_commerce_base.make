@@ -24,5 +24,9 @@ includes[klaska_customs] = "https://raw.github.com/radimklaska/D7_base/master/kl
 includes[shared] = "https://raw.github.com/radimklaska/D7_base/master/shared.make"
 
 
+; Commerce related modules
+includes[commerce] = "https://raw.github.com/radimklaska/D7_base/master/commerce.make"
+
+
 ; Libraries
 includes[libraries] = "https://raw.github.com/radimklaska/D7_base/master/libraries.make"
