@@ -55,6 +55,7 @@ projects[] = filefield_sources
 projects[] = filefield_sources_plupload
 projects[] = flag
 projects[] = flood_control
+projects[] = fontyourface
 projects[] = globalredirect
 projects[] = google_analytics
 projects[] = imagematrix
