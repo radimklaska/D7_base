@@ -172,6 +172,7 @@ projects[] = fusion
 projects[] = ninesixty
 projects[] = rootcandy
 projects[] = corporateclean
+projects[] = havasu
 
 
 ; Libraries
