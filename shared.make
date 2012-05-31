@@ -105,10 +105,17 @@ projects[] = omega_tools
 
 
 
+; AdaptiveTheme
+; --------
+projects[] = adaptivetheme
+projects[] = at-commerce
+projects[] = corolla
+projects[] = sky
+
+
 ; Themes
 ; --------
 projects[] = acquia_prosper
-projects[] = adaptivetheme
 projects[] = fusion
 projects[] = ninesixty
 projects[] = rootcandy
