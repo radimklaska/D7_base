@@ -109,6 +109,7 @@ projects[] = ninesixty
 projects[] = rootcandy
 projects[] = corporateclean
 projects[] = havasu
+projects[] = marinelli
 
 
 
