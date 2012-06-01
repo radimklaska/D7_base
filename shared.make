@@ -12,23 +12,17 @@ projects[eva][version] = 1.1
 
 ; Common modules
 
-projects[] = admin
 ;projects[] = admin_menu
 projects[] = admin_views
 projects[] = advanced_help
 projects[] = agrcache
 projects[] = allow_all_file_extensions
 projects[] = auto_nodetitle
-projects[] = backup_migrate
-projects[] = blockcache_alter
-projects[] = boost
 projects[] = bundle_copy
 projects[] = css_injector
-projects[] = css_emimage
 projects[] = colorbox
 projects[] = comment_notify
 projects[] = context
-projects[] = core_library
 projects[] = ctools
 projects[] = date
 projects[] = devel
@@ -49,12 +43,10 @@ projects[] = field_group
 projects[] = field_injector
 projects[] = field_multiple_limit
 projects[] = field_permissions
-projects[] = filefield_nginx_progress
 projects[] = filefield_paths
 projects[] = filefield_sources
 projects[] = filefield_sources_plupload
 projects[] = flag
-projects[] = flood_control
 projects[] = fontyourface
 projects[] = globalredirect
 projects[] = google_analytics
@@ -74,10 +66,7 @@ projects[] = nodereference_url
 projects[] = pathauto
 projects[] = plupload
 projects[] = references
-projects[] = robotstxt
 projects[] = rules
-projects[] = seckit
-projects[] = site_verify
 projects[] = skinr
 projects[] = stringoverrides
 projects[] = strongarm
@@ -85,7 +74,6 @@ projects[] = taxonomy_menu
 projects[] = themekey
 projects[] = token
 projects[] = transliteration
-projects[] = variable_clean
 projects[] = views
 projects[] = views_bulk_operations
 projects[] = views_hacks
@@ -121,3 +109,23 @@ projects[] = ninesixty
 projects[] = rootcandy
 projects[] = corporateclean
 projects[] = havasu
+
+
+
+
+
+
+; Symlinked by BOA automaticaly - no need to download them
+; See http://omega8.cc/extra-modules-available-in-all-platforms-123#list
+;projects[] = admin
+;projects[] = backup_migrate
+;projects[] = blockcache_alter
+;projects[] = boost
+;projects[] = core_library
+;projects[] = css_emimage
+;projects[] = filefield_nginx_progress
+;projects[] = flood_control
+;projects[] = robotstxt
+;projects[] = seckit
+;projects[] = site_verify
+;projects[] = variable_clean
