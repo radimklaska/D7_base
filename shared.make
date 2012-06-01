@@ -110,6 +110,7 @@ projects[] = rootcandy
 projects[] = corporateclean
 projects[] = havasu
 projects[] = marinelli
+projects[] = openpublic_eu
 
 
 
