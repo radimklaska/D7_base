@@ -7,7 +7,9 @@ api = 2
 
 
 ; Drupal 7.x core:
-projects[drupal][version] = 7
+projects[pressflow][type] = "core"
+projects[pressflow][download][type] = "git"
+projects[pressflow][download][url] = "https://github.com/pressflow/7.git"
 
 ; DOES NOT APPLY ON 7.14
 ; Removes testing instalation profile from Drupal 7. Useful for BOA users.
