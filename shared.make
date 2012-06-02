@@ -1,10 +1,6 @@
 ; Modules
 
 ; Specific versions and other unusual stuff
-
-; http://drupal.org/node/442560
-projects[admin_menu][version] = 3.x-dev
-
 projects[draggableviews][version] = 2.0-beta1
 projects[phone][version] = 1.x-dev
 projects[eva][version] = 1.1
@@ -12,7 +8,7 @@ projects[eva][version] = 1.1
 
 ; Common modules
 
-;projects[] = admin_menu
+projects[] = admin_menu
 projects[] = admin_views
 projects[] = advanced_help
 projects[] = agrcache
