@@ -62,6 +62,7 @@ projects[] = nodereference_url
 projects[] = pathauto
 projects[] = plupload
 projects[] = references
+projects[] = resp_img
 projects[] = rules
 projects[] = skinr
 projects[] = stringoverrides
