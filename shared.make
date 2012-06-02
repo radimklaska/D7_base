@@ -62,6 +62,7 @@ projects[] = nodereference_url
 projects[] = pathauto
 projects[] = plupload
 projects[] = references
+projects[] = resp_img
 projects[] = rules
 projects[] = skinr
 projects[] = stringoverrides
@@ -79,13 +80,18 @@ projects[] = wysiwyg
 
 
 
-; Omega theme and support modules
+; Omega theme support modules
 ; --------
-projects[] = omega
 projects[] = delta
 projects[] = omega_tools
 ; Check in the future:
 ;projects[] = omega_ui
+
+; Omega themes
+; --------
+projects[] = omega
+projects[] = alphorn
+projects[] = conch
 
 
 
