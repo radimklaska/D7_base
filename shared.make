@@ -79,13 +79,18 @@ projects[] = wysiwyg
 
 
 
-; Omega theme and support modules
+; Omega theme support modules
 ; --------
-projects[] = omega
 projects[] = delta
 projects[] = omega_tools
 ; Check in the future:
 ;projects[] = omega_ui
+
+; Omega themes
+; --------
+projects[] = omega
+projects[] = alphorn
+projects[] = conch
 
 
 
