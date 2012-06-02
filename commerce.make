@@ -24,6 +24,7 @@ projects[] = commerce_feeds
 projects[] = commerce_order_ftp_export
 projects[] = commerce_moa
 projects[] = commerce_checkout_progress
+projects[] = commerce_repair
 ; Check in the future:
 ;projects[] = commerce_invoice
 ;projects[] = commerce_email
