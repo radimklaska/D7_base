@@ -47,6 +47,7 @@ projects[] = fontyourface
 projects[] = globalredirect
 projects[] = google_analytics
 projects[] = imagematrix
+projects[] = inline_entity_form
 projects[] = insert
 projects[] = job_scheduler
 projects[] = l10n_update
