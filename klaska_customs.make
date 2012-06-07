@@ -11,6 +11,16 @@ projects[klaska_timdesign][download][type] = git
 projects[klaska_timdesign][download][url] = "git@bitbucket.org:radimklaska/klaska_timdesign.git"
 projects[klaska_timdesign][subdir] = custom
 
+projects[klaska_timdesign][type] = theme
+projects[klaska_timdesign][download][type] = git
+projects[klaska_timdesign][download][url] = "git@bitbucket.org:radimklaska/klaska_geektricko_theme.git"
+projects[klaska_timdesign][subdir] = custom
+
+projects[klaska_timdesign][type] = theme
+projects[klaska_timdesign][download][type] = git
+projects[klaska_timdesign][download][url] = "git@bitbucket.org:radimklaska/klaska_kalendardiar_theme.git"
+projects[klaska_timdesign][subdir] = custom
+
 
 
 
