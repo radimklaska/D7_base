@@ -93,6 +93,11 @@ projects[] = omega_tools
 projects[] = omega
 projects[] = alphorn
 projects[] = conch
+projects[] = beta
+projects[] = gamma
+projects[] = navin
+; Check in the future:
+;projects[] = cm_theme
 
 
 
