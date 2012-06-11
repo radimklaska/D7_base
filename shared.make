@@ -24,6 +24,7 @@ projects[] = date
 projects[] = devel
 projects[] = diff
 projects[] = entity
+projects[] = environment_indicator
 projects[] = extlink
 projects[] = features
 projects[] = features_override
