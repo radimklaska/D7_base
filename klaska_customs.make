@@ -21,6 +21,10 @@ projects[klaska_kalendardiar_theme][download][type] = git
 projects[klaska_kalendardiar_theme][download][url] = "git@bitbucket.org:radimklaska/klaska_kalendardiar_theme.git"
 projects[klaska_kalendardiar_theme][subdir] = custom
 
+projects[klaska_kalendardiar_feauture][type] = theme
+projects[klaska_kalendardiar_feauture][download][type] = git
+projects[klaska_kalendardiar_feauture][download][url] = "git@bitbucket.org:radimklaska/klaska_kalendardiar_feature.git"
+projects[klaska_kalendardiar_feauture][subdir] = custom
 
 
 
