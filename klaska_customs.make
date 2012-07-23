@@ -26,6 +26,11 @@ projects[klaska_kalendardiar_theme][subdir] = custom
 ; Modules
 ; --------
 
+projects[klaska_admintools][type] = module
+projects[klaska_admintools][download][type] = git
+projects[klaska_admintools][download][url] = "git@github.com:radimklaska/klaska_admintools.git"
+projects[klaska_admintools][subdir] = custom
+
 projects[klaska_kalendardiar_feature][type] = module
 projects[klaska_kalendardiar_feature][download][type] = git
 projects[klaska_kalendardiar_feature][download][url] = "git@bitbucket.org:radimklaska/klaska_kalendardiar_feature.git"
