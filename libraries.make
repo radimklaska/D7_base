@@ -23,6 +23,10 @@ libraries[plupload][download][type] = "file"
 libraries[plupload][download][url] = "https://github.com/downloads/moxiecode/plupload/plupload_1_5_4.zip"
 libraries[plupload][destination] = "libraries"
 
+libraries[superfish-for-drupal][download][type] = "git"
+libraries[superfish-for-drupal][download][url] = "git://github.com/mehrpadin/Superfish-for-Drupal.git"
+libraries[superfish-for-drupal][destination] = "libraries"
+
 libraries[lessphp][download][type] = "git"
 libraries[lessphp][download][url] = "git://github.com/leafo/lessphp.git"
 libraries[lessphp][destination] = "libraries"
