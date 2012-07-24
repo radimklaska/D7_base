@@ -1,13 +1,12 @@
 ; Modules
 
 ; Specific versions and other unusual stuff
-projects[draggableviews][version] = 2.0-beta1
+; --------
 projects[phone][version] = 1.x-dev
-projects[eva][version] = 1.1
 
 
 ; Common modules
-
+; --------
 projects[] = admin_menu
 projects[] = admin_views
 projects[] = advanced_help
@@ -23,8 +22,10 @@ projects[] = ctools
 projects[] = date
 projects[] = devel
 projects[] = diff
+projects[] = draggableviews
 projects[] = entity
 projects[] = environment_indicator
+projects[] = eva
 projects[] = extlink
 projects[] = features
 projects[] = features_override
@@ -121,23 +122,3 @@ projects[] = corporateclean
 projects[] = havasu
 projects[] = marinelli
 projects[] = openpublic_eu
-
-
-
-
-
-
-; Symlinked by BOA automaticaly - no need to download them
-; See http://omega8.cc/extra-modules-available-in-all-platforms-123#list
-;projects[] = admin
-;projects[] = backup_migrate
-;projects[] = blockcache_alter
-;projects[] = boost
-;projects[] = core_library
-;projects[] = css_emimage
-;projects[] = filefield_nginx_progress
-;projects[] = flood_control
-;projects[] = robotstxt
-;projects[] = seckit
-;projects[] = site_verify
-;projects[] = variable_clean
