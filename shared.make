@@ -69,6 +69,7 @@ projects[] = rules
 projects[] = skinr
 projects[] = stringoverrides
 projects[] = strongarm
+projects[] = superfish
 projects[] = taxonomy_menu
 projects[] = themekey
 projects[] = token
