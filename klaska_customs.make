@@ -51,3 +51,8 @@ projects[klaska_kalendardiar_feature][type] = module
 projects[klaska_kalendardiar_feature][download][type] = git
 projects[klaska_kalendardiar_feature][download][url] = "git@bitbucket.org:radimklaska/klaska_kalendardiar_feature.git"
 projects[klaska_kalendardiar_feature][subdir] = custom
+
+projects[klaska_feeds_helma][type] = module
+projects[klaska_feeds_helma][download][type] = git
+projects[klaska_feeds_helma][download][url] = "git@github.com:radimklaska/klaska_feeds_helma.git"
+projects[klaska_feeds_helma][subdir] = custom
