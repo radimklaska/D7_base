@@ -49,6 +49,7 @@ projects[] = flag
 projects[] = fontyourface
 projects[] = globalredirect
 projects[] = google_analytics
+projects[] = imagecache_external
 projects[] = imagematrix
 projects[] = inline_entity_form
 projects[] = insert
