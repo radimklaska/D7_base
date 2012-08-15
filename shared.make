@@ -3,6 +3,7 @@
 ; Specific versions and other unusual stuff
 ; --------
 projects[phone][version] = 1.x-dev
+projects[feeds][version] = 2.x-dev
 
 
 ; Common modules
@@ -29,7 +30,7 @@ projects[] = eva
 projects[] = extlink
 projects[] = features
 projects[] = features_override
-projects[] = feeds
+;projects[] = feeds
 projects[] = feeds_fetcher_directory
 projects[] = feeds_tamper
 projects[] = feeds_vimeo
