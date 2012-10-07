@@ -22,6 +22,7 @@ projects[] = commerce_flat_rate
 projects[] = commerce_coupon
 projects[] = physical
 projects[] = commerce_physical
+projects[] = commerce_product_attributes
 projects[] = commerce_devel
 projects[] = commerce_feeds
 projects[] = commerce_order_ftp_export
