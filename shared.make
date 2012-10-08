@@ -25,6 +25,7 @@ projects[] = devel
 projects[] = diff
 projects[] = draggableviews
 projects[] = entity
+projects[] = entityreference
 projects[] = environment_indicator
 projects[] = eva
 projects[] = extlink
