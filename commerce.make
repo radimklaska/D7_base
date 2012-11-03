@@ -32,12 +32,7 @@ projects[] = commerce_checkout_progress
 projects[] = commerce_repair
 projects[] = commerce_invoice
 projects[] = commerce_addressbook
+
+
 ; Check in the future:
 ;projects[] = commerce_email
-
-
-
-; Ubercart
-
-projects[] = ubercart
-projects[] = uc_gopay
