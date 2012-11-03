@@ -25,6 +25,7 @@ projects[] = date
 projects[] = devel
 projects[] = diff
 projects[] = draggableviews
+projects[] = ds
 projects[] = entity
 projects[] = entityreference
 projects[] = environment_indicator
