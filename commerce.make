@@ -4,6 +4,7 @@ projects[] = commerce
 projects[] = addressfield
 projects[] = commerce_autosku
 projects[] = commerce_extra
+projects[] = commerce_fancy_attributes
 projects[] = commerce_price_history
 projects[] = commerce_extra_price_formatters
 projects[] = commerce_vbo_views
