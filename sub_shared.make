@@ -39,6 +39,7 @@ projects[] = feeds_vimeo
 projects[] = feeds_xpathparser
 projects[] = feeds_youtube
 projects[] = field_delimiter
+projects[] = field_extractor
 projects[] = field_extrawidgets
 projects[] = field_formatter_settings
 projects[] = field_group
