@@ -4,6 +4,7 @@ projects[] = commerce
 projects[] = addressfield
 projects[] = commerce_autosku
 projects[] = commerce_extra
+projects[] = commerce_fancy_attributes
 projects[] = commerce_price_history
 projects[] = commerce_extra_price_formatters
 projects[] = commerce_vbo_views
@@ -31,12 +32,7 @@ projects[] = commerce_checkout_progress
 projects[] = commerce_repair
 projects[] = commerce_invoice
 projects[] = commerce_addressbook
+
+
 ; Check in the future:
 ;projects[] = commerce_email
-
-
-
-; Ubercart
-
-projects[] = ubercart
-projects[] = uc_gopay

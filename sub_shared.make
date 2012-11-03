@@ -10,6 +10,7 @@ projects[feeds][version] = 2.x-dev
 ; --------
 projects[] = admin_menu
 projects[] = admin_views
+projects[] = adminrole
 projects[] = advanced_help
 projects[] = agrcache
 projects[] = allow_all_file_extensions
@@ -38,6 +39,7 @@ projects[] = feeds_vimeo
 projects[] = feeds_xpathparser
 projects[] = feeds_youtube
 projects[] = field_delimiter
+projects[] = field_extractor
 projects[] = field_extrawidgets
 projects[] = field_formatter_settings
 projects[] = field_group
