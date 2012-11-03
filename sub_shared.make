@@ -10,6 +10,7 @@ projects[feeds][version] = 2.x-dev
 ; --------
 projects[] = admin_menu
 projects[] = admin_views
+projects[] = adminrole
 projects[] = advanced_help
 projects[] = agrcache
 projects[] = allow_all_file_extensions
