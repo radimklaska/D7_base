@@ -11,11 +11,6 @@ projects[pressflow][type] = "core"
 projects[pressflow][download][type] = "git"
 projects[pressflow][download][url] = "https://github.com/pressflow/7.git"
 
-; DOES NOT APPLY ON 7.14
-; Removes testing instalation profile from Drupal 7. Useful for BOA users.
-; Read more: http://groups.drupal.org/node/168304#comment-566019
-;projects[drupal][patch][] = "https://raw.github.com/radimklaska/D7_base/master/remove_testing.patch"
-
 
 ; Custom modules and themes are located in separate make file (most of them are private).
 ; If you don't have access to those repos, just comment out following line:
