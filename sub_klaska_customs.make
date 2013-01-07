@@ -42,6 +42,11 @@ projects[klaska_kalendardiar_theme][download][type] = git
 projects[klaska_kalendardiar_theme][download][url] = "git@bitbucket.org:radimklaska/klaska_kalendardiar_theme.git"
 projects[klaska_kalendardiar_theme][subdir] = custom
 
+projects[angelsblossomcom_theme][type] = theme
+projects[angelsblossomcom_theme][download][type] = git
+projects[angelsblossomcom_theme][download][url] = "git@bitbucket.org:radimklaska/angelsblossomcom_theme.git"
+projects[angelsblossomcom_theme][subdir] = custom
+
 
 
 ; Modules
