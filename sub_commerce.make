@@ -34,5 +34,18 @@ projects[] = commerce_invoice
 projects[] = commerce_addressbook
 
 
+; Payment methods:
+projects[] = commerce_paypal
+projects[] = commerce_paypal_ec
+projects[] = commerce_authnet
+projects[] = commerce_cod
+projects[] = commerce_bank_transfer
+projects[] = commerce_moneybookers
+projects[] = commerce_no_payment
+projects[] = commerce_pay_in_person
+projects[] = commerce_payu
+projects[] = commerce_userpoints
+
+
 ; Check in the future:
 ;projects[] = commerce_email
