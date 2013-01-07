@@ -34,6 +34,7 @@ projects[] = extlink
 projects[] = features
 projects[] = features_override
 ;projects[] = feeds
+projects[] = file_entity
 projects[] = feeds_fetcher_directory
 projects[] = feeds_tamper
 projects[] = feeds_vimeo
@@ -58,11 +59,14 @@ projects[] = imagecache_external
 projects[] = imagematrix
 projects[] = inline_entity_form
 projects[] = insert
+projects[] = itweak_login
 projects[] = job_scheduler
 projects[] = l10n_update
 projects[] = less
 projects[] = libraries
 projects[] = link
+projects[] = media
+projects[] = media_youtube
 projects[] = migrate
 projects[] = migrate_extras
 projects[] = mobile_codes
@@ -82,12 +86,27 @@ projects[] = taxonomy_menu
 projects[] = themekey
 projects[] = token
 projects[] = transliteration
+projects[] = variable
 projects[] = views
 projects[] = views_bulk_operations
 projects[] = views_hacks
 projects[] = views_infinite_scroll
 projects[] = views_slideshow
 projects[] = wysiwyg
+
+
+
+; Internationalization
+; --------
+projects[] = i18n
+projects[] = entity_translation
+projects[] = translation_table
+projects[] = translation_overview
+projects[] = languageicons
+projects[] = l10n_client
+projects[] = tmgmt
+projects[] = tmgmt_microsoft
+projects[] = tmgmt_google
 
 
 
