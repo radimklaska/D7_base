@@ -52,9 +52,9 @@ projects[] = commerce_moneybookers
 projects[] = commerce_no_payment
 projects[] = commerce_pay_in_person
 projects[] = commerce_payu
-projects[] = commerce_userpoints
 
 
 ; Check in the future:
 ; --------
 ;projects[] = commerce_email
+;projects[] = commerce_userpoints
