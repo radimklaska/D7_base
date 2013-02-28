@@ -66,7 +66,6 @@ projects[] = imagematrix
 projects[] = inline_entity_form
 projects[] = insert
 projects[] = itweak_login
-projects[] = itweak_login
 projects[] = job_scheduler
 projects[] = journal
 projects[] = l10n_update
