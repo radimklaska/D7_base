@@ -2,12 +2,14 @@
 ; --------
 projects[commerce][subdir] = contrib
 projects[addressfield][subdir] = contrib
+projects[commerce_add_to_cart_confirmation][subdir] = contrib
 projects[commerce_addressbook][subdir] = contrib
 projects[commerce_autosku][subdir] = contrib
 projects[commerce_backoffice][subdir] = contrib
 projects[commerce_bpc][subdir] = contrib
 projects[commerce_coupon][subdir] = contrib
 projects[commerce_credits][subdir] = contrib
+projects[commerce_custom_order_status][subdir] = contrib
 projects[commerce_devel][subdir] = contrib
 projects[commerce_eu_vat][subdir] = contrib
 projects[commerce_extra][subdir] = contrib
@@ -32,6 +34,7 @@ projects[commerce_product_attributes][subdir] = contrib
 projects[commerce_product_display_manager][subdir] = contrib
 projects[commerce_repair][subdir] = contrib
 projects[commerce_reports][subdir] = contrib
+projects[commerce_search_api][subdir] = contrib
 projects[commerce_shipping][subdir] = contrib
 projects[commerce_single_address][subdir] = contrib
 projects[commerce_sp][subdir] = contrib
@@ -52,6 +55,19 @@ projects[commerce_moneybookers][subdir] = contrib
 projects[commerce_no_payment][subdir] = contrib
 projects[commerce_pay_in_person][subdir] = contrib
 projects[commerce_payu][subdir] = contrib
+
+
+; Sandboxes
+; --------
+projects[commerce_google_checkout][type] = module
+projects[commerce_google_checkout][download][type] = git
+projects[commerce_google_checkout][download][url] = "http://git.drupal.org/sandbox/alasdair86/1497002.git"
+projects[commerce_google_checkout][download][branch] = 7.x-1.x
+
+projects[commerce_gopay][type] = module
+projects[commerce_gopay][download][type] = git
+projects[commerce_gopay][download][url] = "http://git.drupal.org/sandbox/radimklaska/1831634.git"
+projects[commerce_gopay][download][branch] = master
 
 
 ; Check in the future:
