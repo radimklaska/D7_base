@@ -54,6 +54,19 @@ projects[commerce_pay_in_person][subdir] = contrib
 projects[commerce_payu][subdir] = contrib
 
 
+; Sandboxes
+; --------
+projects[commerce_google_checkout][type] = module
+projects[commerce_google_checkout][download][type] = git
+projects[commerce_google_checkout][download][url] = "http://git.drupal.org/sandbox/alasdair86/1497002.git"
+projects[commerce_google_checkout][download][branch] = 7.x-1.x
+
+projects[commerce_gopay][type] = module
+projects[commerce_gopay][download][type] = git
+projects[commerce_gopay][download][url] = "http://git.drupal.org/sandbox/radimklaska/1831634.git"
+projects[commerce_gopay][download][branch] = master
+
+
 ; Check in the future:
 ; --------
 ;projects[commerce_email][subdir] = contrib
