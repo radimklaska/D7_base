@@ -16,6 +16,7 @@ projects[agrcache][subdir] = contrib
 projects[allow_all_file_extensions][subdir] = contrib
 projects[auto_nodetitle][subdir] = contrib
 projects[bundle_copy][subdir] = contrib
+projects[block_class][subdir] = contrib
 projects[clientside_validation][subdir] = contrib
 projects[colorbox][subdir] = contrib
 projects[comment_notify][subdir] = contrib
@@ -23,6 +24,7 @@ projects[context][subdir] = contrib
 projects[css_injector][subdir] = contrib
 projects[ctools][subdir] = contrib
 projects[date][subdir] = contrib
+projects[date_facets][subdir] = contrib
 projects[devel][subdir] = contrib
 projects[diff][subdir] = contrib
 projects[draggableviews][subdir] = contrib
@@ -33,10 +35,18 @@ projects[entityreference][subdir] = contrib
 projects[environment_indicator][subdir] = contrib
 projects[eva][subdir] = contrib
 projects[extlink][subdir] = contrib
+projects[facetapi][subdir] = contrib
+projects[facetapi_bonus][subdir] = contrib
+projects[facetapi_i18n][subdir] = contrib
+projects[facetapi_pretty_paths][subdir] = contrib
+projects[facetapi_taxonomy_sort][subdir] = contrib
 projects[features][subdir] = contrib
 projects[features_override][subdir] = contrib
 projects[feeds][subdir] = contrib
+projects[feeds_crawler][subdir] = contrib
 projects[feeds_fetcher_directory][subdir] = contrib
+projects[feeds_selfnode_processor][subdir] = contrib
+projects[feeds_spider][subdir] = contrib
 projects[feeds_tamper][subdir] = contrib
 projects[feeds_vimeo][subdir] = contrib
 projects[feeds_xpathparser][subdir] = contrib
@@ -89,6 +99,11 @@ projects[references][subdir] = contrib
 projects[resp_img][subdir] = contrib
 projects[role_export][subdir] = contrib
 projects[rules][subdir] = contrib
+projects[search_api][subdir] = contrib
+projects[search_api_db][subdir] = contrib
+projects[search_api_ranges][subdir] = contrib
+projects[search_api_sorts][subdir] = contrib
+projects[search_facetapi][subdir] = contrib
 projects[skinr][subdir] = contrib
 projects[stringoverrides][subdir] = contrib
 projects[strongarm][subdir] = contrib
@@ -110,10 +125,9 @@ projects[views_slideshow][subdir] = contrib
 projects[views_xml_backend][subdir] = contrib
 projects[visualization][subdir] = contrib
 projects[wf][subdir] = contrib
-projects[wysiwyg][subdir] = contrib 
+projects[wysiwyg][subdir] = contrib
 ; Check in the future:
 ;projects[User_permissions][subdir] = contrib ;Problem with "U" http://drupal.org/node/1119368
-
 
 
 ; Internationalization
@@ -129,13 +143,13 @@ projects[tmgmt_microsoft][subdir] = contrib
 projects[tmgmt_google][subdir] = contrib
 
 
-
 ; Omega theme support modules
 ; --------
 projects[delta][subdir] = contrib
 projects[omega_tools][subdir] = contrib
 ; Check in the future:
 ;projects[omega_ui][subdir] = contrib
+
 
 ; Omega themes
 ; --------
@@ -147,7 +161,6 @@ projects[gamma][subdir] = contrib
 projects[navin][subdir] = contrib
 ; Check in the future:
 ;projects[cm_theme][subdir] = contrib
-
 
 
 ; AdaptiveTheme
