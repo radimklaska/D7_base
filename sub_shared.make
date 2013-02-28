@@ -17,6 +17,7 @@ projects[allow_all_file_extensions][subdir] = contrib
 projects[auto_nodetitle][subdir] = contrib
 projects[bundle_copy][subdir] = contrib
 projects[block_class][subdir] = contrib
+projects[block_icons][subdir] = contrib
 projects[clientside_validation][subdir] = contrib
 projects[colorbox][subdir] = contrib
 projects[comment_notify][subdir] = contrib
