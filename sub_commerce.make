@@ -38,6 +38,7 @@ projects[commerce_search_api][subdir] = contrib
 projects[commerce_shipping][subdir] = contrib
 projects[commerce_single_address][subdir] = contrib
 projects[commerce_sp][subdir] = contrib
+projects[commerce_stock][subdir] = contrib
 projects[commerce_tax_reference][subdir] = contrib
 projects[commerce_vbo_views][subdir] = contrib
 projects[physical][subdir] = contrib
