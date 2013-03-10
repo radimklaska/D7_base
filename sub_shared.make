@@ -94,7 +94,6 @@ projects[mollom][subdir] = contrib
 projects[nodereference_url][subdir] = contrib
 projects[pathauto][subdir] = contrib
 projects[pathologic][subdir] = contrib
-projects[placeholder][subdir] = contrib
 projects[plupload][subdir] = contrib
 projects[references][subdir] = contrib
 projects[resp_img][subdir] = contrib
