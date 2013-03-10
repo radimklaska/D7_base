@@ -43,6 +43,7 @@ projects[commerce_tax_reference][subdir] = contrib
 projects[commerce_vbo_views][subdir] = contrib
 projects[physical][subdir] = contrib
 projects[vat_number][subdir] = contrib
+projects[vtcommerce_image][subdir] = contrib
 
 
 ; Payment methods:
