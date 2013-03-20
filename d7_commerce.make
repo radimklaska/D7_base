@@ -9,7 +9,7 @@ api = 2
 ; Drupal 7.x core:
 projects[pressflow][type] = "core"
 projects[pressflow][download][type] = "git"
-projects[pressflow][download][url] = "https://github.com/pressflow/7.git"
+projects[pressflow][download][url] = "git://github.com/pressflow/7.git"
 
 
 ; Custom modules and themes are located in separate make file (most of them are private).
