@@ -21,6 +21,10 @@ includes[klaska_customs] = "https://raw.github.com/radimklaska/D7_base/master/su
 includes[shared] = "https://raw.github.com/radimklaska/D7_base/master/sub_shared.make"
 
 
+; Modules for Apache Solr enabled systems
+includes[solr] = "https://raw.github.com/radimklaska/D7_base/master/sub_solr.make"
+
+
 ; Commerce related modules
 includes[commerce] = "https://raw.github.com/radimklaska/D7_base/master/sub_commerce.make"
 
