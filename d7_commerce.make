@@ -9,7 +9,7 @@ api = 2
 ; Drupal 7.x core:
 projects[pressflow][type] = "core"
 projects[pressflow][download][type] = "git"
-projects[pressflow][download][url] = "https://github.com/pressflow/7.git"
+projects[pressflow][download][url] = "git://github.com/pressflow/7.git"
 
 
 ; Custom modules and themes are located in separate make file (most of them are private).
@@ -19,6 +19,10 @@ includes[klaska_customs] = "https://raw.github.com/radimklaska/D7_base/master/su
 
 ; Modules and themes for all platforms
 includes[shared] = "https://raw.github.com/radimklaska/D7_base/master/sub_shared.make"
+
+
+; Modules for Apache Solr enabled systems
+includes[solr] = "https://raw.github.com/radimklaska/D7_base/master/sub_solr.make"
 
 
 ; Commerce related modules
