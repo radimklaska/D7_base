@@ -123,6 +123,7 @@ projects[search_api_db][subdir] = contrib
 projects[search_api_ranges][subdir] = contrib
 projects[search_api_sorts][subdir] = contrib
 projects[search_facetapi][subdir] = contrib
+projects[search_krumo][subdir] = contrib
 projects[select_or_other][subdir] = contrib
 projects[seo_checklist][subdir] = contrib
 projects[simplenews][subdir] = contrib
