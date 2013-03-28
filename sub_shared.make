@@ -112,6 +112,8 @@ projects[options_element][subdir] = contrib
 projects[page_title][subdir] = contrib
 projects[pathauto][subdir] = contrib
 projects[pathologic][subdir] = contrib
+projects[pdf_reader][subdir] = contrib
+projects[pdf_to_imagefield][subdir] = contrib
 projects[plupload][subdir] = contrib
 projects[references][subdir] = contrib
 projects[resp_img][subdir] = contrib
@@ -185,6 +187,15 @@ projects[proj4js][subdir] = contrib
 projects[staticmap][subdir] = contrib
 ; Check in the future:
 ;projects[openlayers_plus][subdir] = contrib
+
+
+; Sandboxes
+; --------
+projects[turnjs][type] = module
+projects[turnjs][download][type] = git
+projects[turnjs][download][url] = "http://git.drupal.org/sandbox/michaellenahan/1798746.git"
+projects[turnjs][download][branch] = 7.x-1.x
+projects[turnjs][subdir] = sandbox
 
 
 ; Omega theme support modules

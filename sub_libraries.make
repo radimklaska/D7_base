@@ -11,6 +11,11 @@ libraries[colorbox][download][url] = "git://github.com/jackmoore/colorbox.git"
 libraries[colorbox][directory_name] = "colorbox"
 libraries[colorbox][destination] = "libraries"
 
+libraries[turn.js][download][type] = "git"
+libraries[turn.js][download][url] = "git://github.com/blasten/turn.js.git"
+libraries[turn.js][directory_name] = "turn.js"
+libraries[turn.js][destination] = "libraries"
+
 libraries[jquery.cycle][download][type] = "file"
 libraries[jquery.cycle][download][url] = "http://malsup.github.com/jquery.cycle.all.js"
 
