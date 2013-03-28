@@ -43,6 +43,7 @@ projects[facetapi_bonus][subdir] = contrib
 projects[facetapi_i18n][subdir] = contrib
 projects[facetapi_pretty_paths][subdir] = contrib
 projects[facetapi_taxonomy_sort][subdir] = contrib
+projects[fapi_validation][subdir] = contrib
 projects[features][subdir] = contrib
 projects[features_override][subdir] = contrib
 projects[feeds][subdir] = contrib
@@ -63,6 +64,7 @@ projects[field_group][subdir] = contrib
 projects[field_injector][subdir] = contrib
 projects[field_multiple_limit][subdir] = contrib
 projects[field_permissions][subdir] = contrib
+projects[field_validation][subdir] = contrib
 projects[file_entity][subdir] = contrib
 projects[filefield_paths][subdir] = contrib
 projects[filefield_sources][subdir] = contrib
@@ -74,7 +76,10 @@ projects[globalredirect][subdir] = contrib
 projects[google_analytics][subdir] = contrib
 projects[gravatar][subdir] = contrib
 projects[html5_tools][subdir] = contrib
+projects[httprl][subdir] = contrib
+projects[checklistapi][subdir] = contrib
 projects[chosen][subdir] = contrib
+projects[ife][subdir] = contrib
 projects[imagecache_external][subdir] = contrib
 projects[imagematrix][subdir] = contrib
 projects[inline_entity_form][subdir] = contrib
@@ -110,11 +115,15 @@ projects[og_extras][subdir] = contrib
 projects[og_vocab][subdir] = contrib
 projects[options_element][subdir] = contrib
 projects[page_title][subdir] = contrib
+projects[panels][subdir] = contrib
 projects[pathauto][subdir] = contrib
 projects[pathologic][subdir] = contrib
+projects[pasc][subdir] = contrib
 projects[pdf_reader][subdir] = contrib
 projects[pdf_to_imagefield][subdir] = contrib
 projects[plupload][subdir] = contrib
+projects[qa_checklist][subdir] = contrib
+projects[realname][subdir] = contrib
 projects[references][subdir] = contrib
 projects[resp_img][subdir] = contrib
 projects[role_export][subdir] = contrib
@@ -156,10 +165,31 @@ projects[views_xml_backend][subdir] = contrib
 projects[visualization][subdir] = contrib
 projects[webform][subdir] = contrib
 projects[webform_validation][subdir] = contrib
-projects[wf][subdir] = contrib
 projects[wysiwyg][subdir] = contrib
 ; Check in the future:
 ;projects[User_permissions][subdir] = contrib ;Problem with "U" http://drupal.org/node/1119368
+
+
+; WF Tools
+; --------
+projects[composer_autoload][subdir] = contrib
+projects[git][subdir] = contrib
+projects[jenkins][subdir] = contrib
+projects[reply][subdir] = contrib
+projects[shell_client][subdir] = contrib
+projects[sshid][subdir] = contrib
+projects[sshkey][subdir] = contrib
+projects[wf][subdir] = contrib
+
+
+; Services
+; --------
+projects[] = services
+;Servicec cant be located in contrib folder because of http://drupal.org/node/1355952#comment-5799188
+;projects[services][subdir] = contrib
+projects[services_client][subdir] = contrib
+projects[services_entity][subdir] = contrib
+projects[services_views][subdir] = contrib
 
 
 ; Internationalization
@@ -196,6 +226,15 @@ projects[turnjs][download][type] = git
 projects[turnjs][download][url] = "http://git.drupal.org/sandbox/michaellenahan/1798746.git"
 projects[turnjs][download][branch] = 7.x-1.x
 projects[turnjs][subdir] = sandbox
+
+
+; GitHub
+; --------
+projects[tec][type] = module
+projects[tec][download][type] = git
+projects[tec][download][url] = "https://github.com/technocratau/tec.git"
+projects[tec][download][branch] = master
+projects[tec][subdir] = sandbox
 
 
 ; Omega theme support modules
