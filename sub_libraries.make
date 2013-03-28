@@ -16,6 +16,10 @@ libraries[turn.js][download][url] = "git://github.com/blasten/turn.js.git"
 libraries[turn.js][directory_name] = "turn.js"
 libraries[turn.js][destination] = "libraries"
 
+libraries[gitter][download][type] = "git"
+libraries[gitter][download][url] = "https://github.com/skwashd/gitter.git"
+libraries[gitter][destination] = "libraries"
+
 libraries[jquery.cycle][download][type] = "file"
 libraries[jquery.cycle][download][url] = "http://malsup.github.com/jquery.cycle.all.js"
 
