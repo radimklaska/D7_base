@@ -184,7 +184,9 @@ projects[wf][subdir] = contrib
 
 ; Services
 ; --------
-projects[services][subdir] = contrib
+projects[] = services
+;Servicec cant be located in contrib folder because of http://drupal.org/node/1355952#comment-5799188
+;projects[services][subdir] = contrib
 projects[services_client][subdir] = contrib
 projects[services_entity][subdir] = contrib
 projects[services_views][subdir] = contrib
