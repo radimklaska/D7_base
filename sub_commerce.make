@@ -5,8 +5,9 @@ projects[commerce_stock][subdir] = contrib
 
 ; Drupal Commerce
 ; --------
-projects[commerce][subdir] = contrib
 projects[addressfield][subdir] = contrib
+projects[bpc_entityreference][subdir] = contrib
+projects[commerce][subdir] = contrib
 projects[commerce_add_to_cart_confirmation][subdir] = contrib
 projects[commerce_addressbook][subdir] = contrib
 projects[commerce_autosku][subdir] = contrib
@@ -35,12 +36,14 @@ projects[commerce_multicurrency][subdir] = contrib
 projects[commerce_option][subdir] = contrib
 projects[commerce_order_ftp_export][subdir] = contrib
 projects[commerce_physical][subdir] = contrib
+projects[commerce_pos][subdir] = contrib
 projects[commerce_price_history][subdir] = contrib
 projects[commerce_product_attributes][subdir] = contrib
 projects[commerce_product_display_manager][subdir] = contrib
 projects[commerce_repair][subdir] = contrib
 projects[commerce_reports][subdir] = contrib
 projects[commerce_search_api][subdir] = contrib
+projects[commerce_services][subdir] = contrib
 projects[commerce_shipping][subdir] = contrib
 projects[commerce_single_address][subdir] = contrib
 projects[commerce_sp][subdir] = contrib
