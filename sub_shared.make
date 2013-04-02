@@ -183,6 +183,7 @@ projects[visualization][subdir] = contrib
 projects[webform][subdir] = contrib
 projects[webform_validation][subdir] = contrib
 projects[wysiwyg][subdir] = contrib
+projects[wysiwyg_filter][subdir] = contrib
 ; Check in the future:
 ;projects[User_permissions][subdir] = contrib ;Problem with "U" http://drupal.org/node/1119368
 
