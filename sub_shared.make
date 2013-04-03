@@ -176,6 +176,7 @@ projects[views_fluid_grid][subdir] = contrib
 projects[views_hacks][subdir] = contrib
 projects[views_horizontal_slider][subdir] = contrib
 projects[views_infinite_scroll][subdir] = contrib
+projects[views_litepager][subdir] = contrib
 projects[views_megarow][subdir] = contrib
 projects[views_slideshow][subdir] = contrib
 projects[views_slideshow_slider][subdir] = contrib
