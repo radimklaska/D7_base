@@ -27,7 +27,7 @@ libraries[turn.js][directory_name] = "turn.js"
 libraries[turn.js][destination] = "libraries"
 
 libraries[gitter][download][type] = "git"
-libraries[gitter][download][url] = "https://github.com/skwashd/gitter.git"
+libraries[gitter][download][url] = "git://github.com/skwashd/gitter.git"
 libraries[gitter][destination] = "libraries"
 
 libraries[jquery.cycle][download][type] = "file"
