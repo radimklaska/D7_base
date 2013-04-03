@@ -18,6 +18,7 @@ projects[auto_nodetitle][subdir] = contrib
 projects[better_formats][subdir] = contrib
 projects[block_class][subdir] = contrib
 projects[block_icons][subdir] = contrib
+projects[bundleswitcher][subdir] = contrib
 projects[bundle_copy][subdir] = contrib
 projects[checklistapi][subdir] = contrib
 projects[chosen][subdir] = contrib
