@@ -1,7 +1,6 @@
 ; Specific versions and other unusual stuff
 ; --------
-projects[commerce_stock][version] = 2.0-alpha4
-projects[commerce_stock][subdir] = contrib
+; NONE :)
 
 ; Drupal Commerce
 ; --------
@@ -51,6 +50,7 @@ projects[commerce_services][subdir] = contrib
 projects[commerce_shipping][subdir] = contrib
 projects[commerce_single_address][subdir] = contrib
 projects[commerce_sp][subdir] = contrib
+projects[commerce_stock][subdir] = contrib
 projects[commerce_tax_reference][subdir] = contrib
 projects[commerce_vbo_views][subdir] = contrib
 projects[dc_co_pages][subdir] = contrib
