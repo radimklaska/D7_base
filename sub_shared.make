@@ -154,6 +154,7 @@ projects[references][subdir] = contrib
 projects[registration][subdir] = contrib
 projects[remote_stream_wrapper][subdir] = contrib
 projects[resp_img][subdir] = contrib
+projects[resumable_download][subdir] = contrib
 projects[role_export][subdir] = contrib
 projects[rooms][subdir] = contrib
 projects[rules][subdir] = contrib
