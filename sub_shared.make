@@ -6,7 +6,8 @@ projects[phone][version] = 1.x-dev
 projects[phone][subdir] = contrib
 
 projects[block_icons][subdir] = contrib
-projects[block_icons][patch][] = "http://drupal.org/files/issues/1023606-qid-to-name-6.patch"
+projects[block_icons][version] = 1.2
+projects[block_icons][patch][] = "http://drupal.org/files/block_icons-fixing_wrong_css_id_selector-1789182-4.patch"
 
 
 ; Common modules
