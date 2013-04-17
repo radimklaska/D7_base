@@ -108,6 +108,7 @@ projects[itweak_login][subdir] = contrib
 projects[jammer][subdir] = contrib
 projects[job_scheduler][subdir] = contrib
 projects[journal][subdir] = contrib
+projects[jquery_update][subdir] = contrib
 projects[l10n_update][subdir] = contrib
 projects[less][subdir] = contrib
 projects[libraries][subdir] = contrib
