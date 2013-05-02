@@ -39,7 +39,6 @@ projects[css_injector][subdir] = contrib
 projects[ctools][subdir] = contrib
 projects[date][subdir] = contrib
 projects[date_facets][subdir] = contrib
-projects[devel][subdir] = contrib
 projects[diff][subdir] = contrib
 projects[draggableviews][subdir] = contrib
 projects[ds][subdir] = contrib
@@ -258,6 +257,11 @@ projects[proj4js][subdir] = contrib
 projects[staticmap][subdir] = contrib
 ; Check in the future:
 ;projects[openlayers_plus][subdir] = contrib
+
+
+; Development tools
+; --------
+projects[devel][subdir] = contrib
 
 
 ; Sandboxes
