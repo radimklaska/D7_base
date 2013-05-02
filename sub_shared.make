@@ -261,7 +261,12 @@ projects[staticmap][subdir] = contrib
 
 ; Development tools
 ; --------
-projects[devel][subdir] = contrib
+projects[coder][subdir] = dev
+projects[coder_tough_love][subdir] = dev
+projects[devel][subdir] = dev
+projects[grammar_parser][subdir] = dev
+projects[grammar_parser_lib][subdir] = dev
+projects[potx][subdir] = dev
 
 
 ; Sandboxes
