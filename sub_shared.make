@@ -213,6 +213,7 @@ projects[webform][subdir] = contrib
 projects[webform_validation][subdir] = contrib
 projects[wysiwyg][subdir] = contrib
 projects[wysiwyg_filter][subdir] = contrib
+projects[xmlsitemap][subdir] = contrib
 
 
 ; WF Tools
