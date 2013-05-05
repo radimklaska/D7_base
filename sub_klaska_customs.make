@@ -28,6 +28,11 @@ projects[angelsblossomcom_theme][download][type] = git
 projects[angelsblossomcom_theme][download][url] = "git@bitbucket.org:radimklaska/angelsblossomcom_theme.git"
 projects[angelsblossomcom_theme][subdir] = custom
 
+projects[emadiosoncz_theme][type] = theme
+projects[emadiosoncz_theme][download][type] = git
+projects[emadiosoncz_theme][download][url] = "git@bitbucket.org:radimklaska/emadiosoncz_theme.git"
+projects[emadiosoncz_theme][subdir] = custom
+
 projects[klaska_anafe][type] = theme
 projects[klaska_anafe][download][type] = git
 projects[klaska_anafe][download][url] = "git@bitbucket.org:radimklaska/klaska_anafe.git"
