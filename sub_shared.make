@@ -200,6 +200,7 @@ projects[views][subdir] = contrib
 projects[views_bulk_operations][subdir] = contrib
 projects[views_column_class][subdir] = contrib
 projects[views_fluid_grid][subdir] = contrib
+projects[views_geojson][subdir] = contrib
 projects[views_hacks][subdir] = contrib
 projects[views_horizontal_slider][subdir] = contrib
 projects[views_infinite_scroll][subdir] = contrib
