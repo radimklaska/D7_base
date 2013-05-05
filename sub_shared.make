@@ -5,10 +5,6 @@
 projects[phone][version] = 1.x-dev
 projects[phone][subdir] = contrib
 
-projects[block_icons][subdir] = contrib
-projects[block_icons][version] = 1.2
-projects[block_icons][patch][] = "http://drupal.org/files/block_icons-fixing_wrong_css_id_selector-1789182-4.patch"
-
 
 ; Common modules
 ; --------
@@ -23,6 +19,7 @@ projects[auto_nodetitle][subdir] = contrib
 projects[autocomplete_widgets][subdir] = contrib
 projects[better_formats][subdir] = contrib
 projects[block_class][subdir] = contrib
+projects[block_icons][subdir] = contrib
 projects[bundle_copy][subdir] = contrib
 projects[bundleswitcher][subdir] = contrib
 projects[calendar][subdir] = contrib
