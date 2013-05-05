@@ -19,18 +19,19 @@ projects[klaska_slideshow][subdir] = custom
 ; --------
 
 
+
 ; Themes
 ; --------
+
+projects[angelsblossomcom_theme][type] = theme
+projects[angelsblossomcom_theme][download][type] = git
+projects[angelsblossomcom_theme][download][url] = "git@bitbucket.org:radimklaska/angelsblossomcom_theme.git"
+projects[angelsblossomcom_theme][subdir] = custom
 
 projects[klaska_anafe][type] = theme
 projects[klaska_anafe][download][type] = git
 projects[klaska_anafe][download][url] = "git@bitbucket.org:radimklaska/klaska_anafe.git"
 projects[klaska_anafe][subdir] = custom
-
-projects[klaska_timdesign][type] = theme
-projects[klaska_timdesign][download][type] = git
-projects[klaska_timdesign][download][url] = "git@bitbucket.org:radimklaska/klaska_timdesign.git"
-projects[klaska_timdesign][subdir] = custom
 
 projects[klaska_geektricko_theme][type] = theme
 projects[klaska_geektricko_theme][download][type] = git
@@ -42,21 +43,22 @@ projects[klaska_kalendardiar_theme][download][type] = git
 projects[klaska_kalendardiar_theme][download][url] = "git@bitbucket.org:radimklaska/klaska_kalendardiar_theme.git"
 projects[klaska_kalendardiar_theme][subdir] = custom
 
-projects[angelsblossomcom_theme][type] = theme
-projects[angelsblossomcom_theme][download][type] = git
-projects[angelsblossomcom_theme][download][url] = "git@bitbucket.org:radimklaska/angelsblossomcom_theme.git"
-projects[angelsblossomcom_theme][subdir] = custom
+projects[klaska_timdesign][type] = theme
+projects[klaska_timdesign][download][type] = git
+projects[klaska_timdesign][download][url] = "git@bitbucket.org:radimklaska/klaska_timdesign.git"
+projects[klaska_timdesign][subdir] = custom
 
 
 
 ; Modules
 ; --------
-projects[klaska_kalendardiar_feature][type] = module
-projects[klaska_kalendardiar_feature][download][type] = git
-projects[klaska_kalendardiar_feature][download][url] = "git@bitbucket.org:radimklaska/klaska_kalendardiar_feature.git"
-projects[klaska_kalendardiar_feature][subdir] = custom
 
 projects[klaska_feeds_helma][type] = module
 projects[klaska_feeds_helma][download][type] = git
 projects[klaska_feeds_helma][download][url] = "git@bitbucket.org:radimklaska/klaska_feeds_helma.git"
 projects[klaska_feeds_helma][subdir] = custom
+
+projects[klaska_kalendardiar_feature][type] = module
+projects[klaska_kalendardiar_feature][download][type] = git
+projects[klaska_kalendardiar_feature][download][url] = "git@bitbucket.org:radimklaska/klaska_kalendardiar_feature.git"
+projects[klaska_kalendardiar_feature][subdir] = custom
