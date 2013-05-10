@@ -7,8 +7,8 @@
 projects[addressfield][subdir] = contrib
 projects[bpc_entityreference][subdir] = contrib
 projects[commerce][subdir] = contrib
-projects[commerce_addressbook][subdir] = contrib
 projects[commerce_add_to_cart_confirmation][subdir] = contrib
+projects[commerce_addressbook][subdir] = contrib
 projects[commerce_autosku][subdir] = contrib
 projects[commerce_backoffice][subdir] = contrib
 projects[commerce_bpc][subdir] = contrib
@@ -37,6 +37,7 @@ projects[commerce_option][subdir] = contrib
 projects[commerce_order_ftp_export][subdir] = contrib
 projects[commerce_physical][subdir] = contrib
 projects[commerce_pos][subdir] = contrib
+projects[commerce_price_decimals_formatter][subdir] = contrib
 projects[commerce_price_history][subdir] = contrib
 projects[commerce_price_savings_formatter][subdir] = contrib
 projects[commerce_price_table][subdir] = contrib
