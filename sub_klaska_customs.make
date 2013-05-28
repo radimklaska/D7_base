@@ -38,6 +38,11 @@ projects[emadiosoncz_theme][download][type] = git
 projects[emadiosoncz_theme][download][url] = "git@bitbucket.org:radimklaska/emadiosoncz_theme.git"
 projects[emadiosoncz_theme][subdir] = custom
 
+projects[hookincz_theme][type] = theme
+projects[hookincz_theme][download][type] = git
+projects[hookincz_theme][download][url] = "git@bitbucket.org:radimklaska/hookincz_theme.git"
+projects[hookincz_theme][subdir] = custom
+
 projects[klaska_anafe][type] = theme
 projects[klaska_anafe][download][type] = git
 projects[klaska_anafe][download][url] = "git@bitbucket.org:radimklaska/klaska_anafe.git"
