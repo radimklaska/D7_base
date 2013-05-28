@@ -38,6 +38,11 @@ projects[emadiosoncz_theme][download][type] = git
 projects[emadiosoncz_theme][download][url] = "git@bitbucket.org:radimklaska/emadiosoncz_theme.git"
 projects[emadiosoncz_theme][subdir] = custom
 
+projects[hookincz_theme][type] = theme
+projects[hookincz_theme][download][type] = git
+projects[hookincz_theme][download][url] = "git@bitbucket.org:radimklaska/hookincz_theme.git"
+projects[hookincz_theme][subdir] = custom
+
 projects[klaska_anafe][type] = theme
 projects[klaska_anafe][download][type] = git
 projects[klaska_anafe][download][url] = "git@bitbucket.org:radimklaska/klaska_anafe.git"
@@ -57,6 +62,26 @@ projects[klaska_timdesign][type] = theme
 projects[klaska_timdesign][download][type] = git
 projects[klaska_timdesign][download][url] = "git@bitbucket.org:radimklaska/klaska_timdesign.git"
 projects[klaska_timdesign][subdir] = custom
+
+projects[novikapluscz_theme][type] = theme
+projects[novikapluscz_theme][download][type] = git
+projects[novikapluscz_theme][download][url] = "git@bitbucket.org:radimklaska/novikapluscz_theme.git"
+projects[novikapluscz_theme][subdir] = custom
+
+projects[rudlasrocz_theme][type] = theme
+projects[rudlasrocz_theme][download][type] = git
+projects[rudlasrocz_theme][download][url] = "git@bitbucket.org:radimklaska/rudlasrocz_theme.git"
+projects[rudlasrocz_theme][subdir] = custom
+
+projects[trezorcentrumcz_theme][type] = theme
+projects[trezorcentrumcz_theme][download][type] = git
+projects[trezorcentrumcz_theme][download][url] = "git@bitbucket.org:radimklaska/trezorcentrumcz_theme.git"
+projects[trezorcentrumcz_theme][subdir] = custom
+
+projects[tymalligatorscz_theme][type] = theme
+projects[tymalligatorscz_theme][download][type] = git
+projects[tymalligatorscz_theme][download][url] = "git@bitbucket.org:radimklaska/tymalligatorscz_theme.git"
+projects[tymalligatorscz_theme][subdir] = custom
 
 
 
