@@ -63,6 +63,11 @@ projects[klaska_timdesign][download][type] = git
 projects[klaska_timdesign][download][url] = "git@bitbucket.org:radimklaska/klaska_timdesign.git"
 projects[klaska_timdesign][subdir] = custom
 
+projects[tymalligatorscz_theme][type] = theme
+projects[tymalligatorscz_theme][download][type] = git
+projects[tymalligatorscz_theme][download][url] = "git@bitbucket.org:radimklaska/tymalligatorscz_theme.git"
+projects[tymalligatorscz_theme][subdir] = custom
+
 
 
 ; Modules
