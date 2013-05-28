@@ -63,6 +63,11 @@ projects[klaska_timdesign][download][type] = git
 projects[klaska_timdesign][download][url] = "git@bitbucket.org:radimklaska/klaska_timdesign.git"
 projects[klaska_timdesign][subdir] = custom
 
+projects[novikapluscz_theme][type] = theme
+projects[novikapluscz_theme][download][type] = git
+projects[novikapluscz_theme][download][url] = "git@bitbucket.org:radimklaska/novikapluscz_theme.git"
+projects[novikapluscz_theme][subdir] = custom
+
 projects[rudlasrocz_theme][type] = theme
 projects[rudlasrocz_theme][download][type] = git
 projects[rudlasrocz_theme][download][url] = "git@bitbucket.org:radimklaska/rudlasrocz_theme.git"
