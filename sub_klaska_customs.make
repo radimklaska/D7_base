@@ -88,6 +88,11 @@ projects[tymalligatorscz_theme][subdir] = custom
 ; Modules
 ; --------
 
+projects[hookincz_feature][type] = module
+projects[hookincz_feature][download][type] = git
+projects[hookincz_feature][download][url] = "git@bitbucket.org:radimklaska/hookincz_feature.git"
+projects[hookincz_feature][subdir] = custom
+
 projects[klaska_feeds_helma][type] = module
 projects[klaska_feeds_helma][download][type] = git
 projects[klaska_feeds_helma][download][url] = "git@bitbucket.org:radimklaska/klaska_feeds_helma.git"
