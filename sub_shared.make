@@ -8,10 +8,12 @@ projects[phone][subdir] = contrib
 
 ; Common modules
 ; --------
+projects[addressfield][subdir] = contrib
 projects[admin_menu][subdir] = contrib
 projects[admin_views][subdir] = contrib
 projects[adminrole][subdir] = contrib
 projects[advanced_help][subdir] = contrib
+projects[affiliate_ng][subdir] = contrib
 projects[agrcache][subdir] = contrib
 projects[ais][subdir] = contrib
 projects[allow_all_file_extensions][subdir] = contrib
@@ -20,6 +22,7 @@ projects[autocomplete_widgets][subdir] = contrib
 projects[better_formats][subdir] = contrib
 projects[block_class][subdir] = contrib
 projects[block_icons][subdir] = contrib
+projects[bpc_entityreference][subdir] = contrib
 projects[bundle_copy][subdir] = contrib
 projects[bundleswitcher][subdir] = contrib
 projects[calendar][subdir] = contrib
@@ -40,12 +43,14 @@ projects[date_facets][subdir] = contrib
 projects[diff][subdir] = contrib
 projects[draggableviews][subdir] = contrib
 projects[ds][subdir] = contrib
+projects[eck][subdir] = contrib
 projects[editablefields][subdir] = contrib
 projects[elements][subdir] = contrib
 projects[elysia_cron][subdir] = contrib
 projects[entity][subdir] = contrib
 projects[entityreference][subdir] = contrib
 projects[environment_indicator][subdir] = contrib
+projects[eu-cookie-compliance][subdir] = contrib
 projects[eva][subdir] = contrib
 projects[exif][subdir] = contrib
 projects[extlink][subdir] = contrib
@@ -81,7 +86,10 @@ projects[filefield_paths][subdir] = contrib
 projects[filefield_sources][subdir] = contrib
 projects[filefield_sources_plupload][subdir] = contrib
 projects[flag][subdir] = contrib
+projects[fontawesome][subdir] = contrib
+projects[fontello][subdir] = contrib
 projects[fontyourface][subdir] = contrib
+projects[force_password_change][subdir] = contrib
 projects[form_builder][subdir] = contrib
 projects[ftools][subdir] = contrib
 projects[gist_filter][subdir] = contrib
@@ -94,6 +102,7 @@ projects[html5_media][subdir] = contrib
 projects[html5_tools][subdir] = contrib
 projects[http_client][subdir] = contrib
 projects[httprl][subdir] = contrib
+projects[icon][subdir] = contrib
 projects[ife][subdir] = contrib
 projects[image_resize_filter][subdir] = contrib
 projects[imagecache_external][subdir] = contrib
@@ -102,11 +111,14 @@ projects[imagematrix][subdir] = contrib
 projects[inline_entity_form][subdir] = contrib
 projects[insert][subdir] = contrib
 projects[insert_view][subdir] = contrib
+projects[interval][subdir] = contrib
 projects[itweak_login][subdir] = contrib
 projects[jammer][subdir] = contrib
+projects[jcarousel][subdir] = contrib
 projects[job_scheduler][subdir] = contrib
 projects[journal][subdir] = contrib
 projects[jquery_update][subdir] = contrib
+projects[jstimer][subdir] = contrib
 projects[l10n_update][subdir] = contrib
 projects[less][subdir] = contrib
 projects[libraries][subdir] = contrib
@@ -165,6 +177,7 @@ projects[resumable_download][subdir] = contrib
 projects[role_export][subdir] = contrib
 projects[rooms][subdir] = contrib
 projects[rules][subdir] = contrib
+projects[saferpermissions][subdir] = contrib
 projects[search404][subdir] = contrib
 projects[search_api][subdir] = contrib
 projects[search_api_db][subdir] = contrib
@@ -178,14 +191,17 @@ projects[service_links][subdir] = contrib
 projects[simplenews][subdir] = contrib
 projects[simplenews_scheduler][subdir] = contrib
 projects[skinr][subdir] = contrib
+projects[sliderfield][subdir] = contrib
 projects[smart_trim][subdir] = contrib
 projects[special_menu_items][subdir] = contrib
 projects[stringoverrides][subdir] = contrib
 projects[strongarm][subdir] = contrib
 projects[styleguide][subdir] = contrib
 projects[superfish][subdir] = contrib
+projects[syslog_advanced][subdir] = contrib
 projects[taxonomy_container][subdir] = contrib
 projects[taxonomy_menu][subdir] = contrib
+projects[tb_megamenu][subdir] = contrib
 projects[themekey][subdir] = contrib
 projects[token][subdir] = contrib
 projects[transliteration][subdir] = contrib
@@ -205,11 +221,13 @@ projects[views_hacks][subdir] = contrib
 projects[views_horizontal_slider][subdir] = contrib
 projects[views_infinite_scroll][subdir] = contrib
 projects[views_litepager][subdir] = contrib
+projects[views_load_more][subdir] = contrib
 projects[views_megarow][subdir] = contrib
 projects[views_slideshow][subdir] = contrib
 projects[views_slideshow_slider][subdir] = contrib
 projects[views_xml_backend][subdir] = contrib
 projects[visualization][subdir] = contrib
+projects[waypoints][subdir] = contrib
 projects[webform][subdir] = contrib
 projects[webform_validation][subdir] = contrib
 projects[wysiwyg][subdir] = contrib
@@ -232,7 +250,7 @@ projects[wf][subdir] = contrib
 ; Services
 ; --------
 projects[] = services
-;Servicec cant be located in contrib folder because of http://drupal.org/node/1355952#comment-5799188
+;Services cant be located in contrib folder because of http://drupal.org/node/1355952#comment-5799188
 ;projects[services][subdir] = contrib
 projects[services_client][subdir] = contrib
 projects[services_entity][subdir] = contrib
@@ -298,8 +316,6 @@ projects[tec][subdir] = sandbox
 ; --------
 projects[delta][subdir] = contrib
 projects[omega_tools][subdir] = contrib
-; Check in the future:
-;projects[omega_ui][subdir] = contrib
 
 
 ; Omega themes
@@ -310,8 +326,6 @@ projects[conch][subdir] = contrib
 projects[beta][subdir] = contrib
 projects[gamma][subdir] = contrib
 projects[navin][subdir] = contrib
-; Check in the future:
-;projects[cm_theme][subdir] = contrib
 
 
 ; AdaptiveTheme
