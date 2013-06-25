@@ -321,6 +321,7 @@ projects[omega_tools][subdir] = contrib
 ; Omega themes
 ; --------
 projects[omega][subdir] = contrib
+projects[omega][version] = 7.x-3.1
 projects[alphorn][subdir] = contrib
 projects[conch][subdir] = contrib
 projects[beta][subdir] = contrib
