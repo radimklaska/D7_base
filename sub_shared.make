@@ -17,6 +17,7 @@ projects[affiliate_ng][subdir] = contrib
 projects[agrcache][subdir] = contrib
 projects[ais][subdir] = contrib
 projects[allow_all_file_extensions][subdir] = contrib
+projects[auto_nodequeue][subdir] = contrib
 projects[auto_nodetitle][subdir] = contrib
 projects[autocomplete_widgets][subdir] = contrib
 projects[better_formats][subdir] = contrib
