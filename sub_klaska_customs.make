@@ -33,10 +33,10 @@ projects[dieselcorporationcz_theme][download][type] = git
 projects[dieselcorporationcz_theme][download][url] = "git@bitbucket.org:radimklaska/dieselcorporationcz_theme.git"
 projects[dieselcorporationcz_theme][subdir] = custom
 
-projects[emadiosoncz_theme][type] = theme
-projects[emadiosoncz_theme][download][type] = git
-projects[emadiosoncz_theme][download][url] = "git@bitbucket.org:radimklaska/emadiosoncz_theme.git"
-projects[emadiosoncz_theme][subdir] = custom
+projects[emadisoncz_theme][type] = theme
+projects[emadisoncz_theme][download][type] = git
+projects[emadisoncz_theme][download][url] = "git@bitbucket.org:radimklaska/emadisoncz_theme.git"
+projects[emadisoncz_theme][subdir] = custom
 
 projects[hookincz_theme][type] = theme
 projects[hookincz_theme][download][type] = git
