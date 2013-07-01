@@ -5,6 +5,9 @@
 projects[phone][version] = 1.x-dev
 projects[phone][subdir] = contrib
 
+projects[icon][subdir] = contrib
+projects[icon][patch][] = "http://drupal.org/files/2032097-1-has_icon_class_for_blocks.patch"
+
 
 ; Common modules
 ; --------
@@ -103,7 +106,6 @@ projects[html5_media][subdir] = contrib
 projects[html5_tools][subdir] = contrib
 projects[http_client][subdir] = contrib
 projects[httprl][subdir] = contrib
-projects[icon][subdir] = contrib
 projects[ife][subdir] = contrib
 projects[image_resize_filter][subdir] = contrib
 projects[imagecache_external][subdir] = contrib
