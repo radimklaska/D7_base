@@ -8,6 +8,9 @@ projects[phone][subdir] = contrib
 projects[icon][subdir] = contrib
 projects[icon][patch][] = "http://drupal.org/files/2032097-1-has_icon_class_for_blocks.patch"
 
+projects[taxonomy_menu][version] = 2.0-alpha2
+projects[taxonomy_menu][subdir] = contrib
+
 
 ; Common modules
 ; --------
@@ -203,7 +206,6 @@ projects[styleguide][subdir] = contrib
 projects[superfish][subdir] = contrib
 projects[syslog_advanced][subdir] = contrib
 projects[taxonomy_container][subdir] = contrib
-projects[taxonomy_menu][subdir] = contrib
 projects[tb_megamenu][subdir] = contrib
 projects[themekey][subdir] = contrib
 projects[token][subdir] = contrib
