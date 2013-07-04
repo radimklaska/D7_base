@@ -353,3 +353,4 @@ projects[havasu][subdir] = contrib
 projects[marinelli][subdir] = contrib
 projects[openpublic_eu][subdir] = contrib
 projects[shiny][subdir] = contrib
+projects[blogbuzz][subdir] = contrib
