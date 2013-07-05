@@ -57,6 +57,10 @@ libraries[fontawesome][download][type] = "git"
 libraries[fontawesome][download][url] = "git://github.com/FortAwesome/Font-Awesome.git"
 libraries[fontawesome][destination] = "libraries"
 
+libraries[flexslider][download][type] = "get"
+libraries[flexslider][download][url] = "https://github.com/woothemes/FlexSlider/zipball/master"
+libraries[flexslider][directory_name] = "flexslider"
+
 ; Waiting with update to version 4 until http://drupal.org/node/1853550
 libraries[ckeditor][download][type] = "file"
 libraries[ckeditor][download][url] = "http://download.cksource.com/CKEditor/CKEditor/CKEditor%203.6.1/ckeditor_3.6.1.tar.gz"
