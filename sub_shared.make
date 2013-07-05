@@ -93,6 +93,8 @@ projects[filefield_paths][subdir] = contrib
 projects[filefield_sources][subdir] = contrib
 projects[filefield_sources_plupload][subdir] = contrib
 projects[flag][subdir] = contrib
+projects[flexslider][subdir] = contrib
+projects[flexslider_views_slideshow][subdir] = contrib
 projects[fontawesome][subdir] = contrib
 projects[fontello][subdir] = contrib
 projects[fontyourface][subdir] = contrib
@@ -103,6 +105,7 @@ projects[gist_filter][subdir] = contrib
 projects[globalredirect][subdir] = contrib
 projects[google_analytics][subdir] = contrib
 projects[gravatar][subdir] = contrib
+projects[hacked][subdir] = contrib
 projects[hansel][subdir] = contrib
 projects[hide_submit][subdir] = contrib
 projects[html5_media][subdir] = contrib
@@ -194,6 +197,7 @@ projects[search_krumo][subdir] = contrib
 projects[select_or_other][subdir] = contrib
 projects[seo_checklist][subdir] = contrib
 projects[service_links][subdir] = contrib
+projects[shortcutperrole][subdir] = contrib
 projects[simplenews][subdir] = contrib
 projects[simplenews_scheduler][subdir] = contrib
 projects[skinr][subdir] = contrib
@@ -327,9 +331,10 @@ projects[omega_tools][subdir] = contrib
 ; --------
 projects[omega][subdir] = contrib
 projects[omega][version] = 7.x-3.1
+; ---
 projects[alphorn][subdir] = contrib
-projects[conch][subdir] = contrib
 projects[beta][subdir] = contrib
+projects[conch][subdir] = contrib
 projects[gamma][subdir] = contrib
 projects[navin][subdir] = contrib
 
@@ -345,11 +350,12 @@ projects[sky][subdir] = contrib
 ; Themes
 ; --------
 projects[acquia_prosper][subdir] = contrib
-projects[fusion][subdir] = contrib
-projects[ninesixty][subdir] = contrib
-projects[rootcandy][subdir] = contrib
+projects[blogbuzz][subdir] = contrib
 projects[corporateclean][subdir] = contrib
+projects[fusion][subdir] = contrib
 projects[havasu][subdir] = contrib
 projects[marinelli][subdir] = contrib
+projects[ninesixty][subdir] = contrib
 projects[openpublic_eu][subdir] = contrib
+projects[rootcandy][subdir] = contrib
 projects[shiny][subdir] = contrib
