@@ -327,9 +327,10 @@ projects[omega_tools][subdir] = contrib
 ; --------
 projects[omega][subdir] = contrib
 projects[omega][version] = 7.x-3.1
+; ---
 projects[alphorn][subdir] = contrib
-projects[conch][subdir] = contrib
 projects[beta][subdir] = contrib
+projects[conch][subdir] = contrib
 projects[gamma][subdir] = contrib
 projects[navin][subdir] = contrib
 
@@ -345,12 +346,12 @@ projects[sky][subdir] = contrib
 ; Themes
 ; --------
 projects[acquia_prosper][subdir] = contrib
-projects[fusion][subdir] = contrib
-projects[ninesixty][subdir] = contrib
-projects[rootcandy][subdir] = contrib
+projects[blogbuzz][subdir] = contrib
 projects[corporateclean][subdir] = contrib
+projects[fusion][subdir] = contrib
 projects[havasu][subdir] = contrib
 projects[marinelli][subdir] = contrib
+projects[ninesixty][subdir] = contrib
 projects[openpublic_eu][subdir] = contrib
+projects[rootcandy][subdir] = contrib
 projects[shiny][subdir] = contrib
-projects[blogbuzz][subdir] = contrib
