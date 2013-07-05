@@ -298,6 +298,7 @@ projects[staticmap][subdir] = contrib
 projects[coder][subdir] = dev
 projects[coder_tough_love][subdir] = dev
 projects[devel][subdir] = dev
+projects[devel_image_provider][subdir] = dev
 projects[grammar_parser][subdir] = dev
 projects[grammar_parser_lib][subdir] = dev
 projects[potx][subdir] = dev
