@@ -1,8 +1,5 @@
 ; Specific versions and other unusual stuff
 ; --------
-projects[commerce_eu_vat][subdir] = contrib
-projects[commerce_eu_vat][version] = 1.0-beta5
-projects[commerce_eu_vat][patch][] = "http://drupal.org/files/update_czech_vat_rates-1992784-3.patch"
 
 ; Drupal Commerce
 ; --------
@@ -21,6 +18,7 @@ projects[commerce_coupon][subdir] = contrib
 projects[commerce_credits][subdir] = contrib
 projects[commerce_custom_order_status][subdir] = contrib
 projects[commerce_devel][subdir] = contrib
+projects[commerce_eu_vat][subdir] = contrib
 projects[commerce_extra][subdir] = contrib
 projects[commerce_extra_panes][subdir] = contrib
 projects[commerce_extra_price_formatters][subdir] = contrib
