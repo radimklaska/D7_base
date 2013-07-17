@@ -1,6 +1,10 @@
 ; Specific versions and other unusual stuff
 ; --------
 
+projects[commerce_flat_rate][subdir] = contrib
+projects[commerce_flat_rate][version] = 1.0-beta2
+projects[commerce_flat_rate][patch][] = "http://drupal.org/files/commerce_flat_rate-1480654-7.patch"
+
 ; Drupal Commerce
 ; --------
 projects[commerce][subdir] = contrib
@@ -26,7 +30,6 @@ projects[commerce_fancy_attributes][subdir] = contrib
 projects[commerce_features][subdir] = contrib
 projects[commerce_feeds][subdir] = contrib
 projects[commerce_file][subdir] = contrib
-projects[commerce_flat_rate][subdir] = contrib
 projects[commerce_google_analytics][subdir] = contrib
 projects[commerce_invoice][subdir] = contrib
 projects[commerce_message][subdir] = contrib
