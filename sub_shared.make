@@ -156,6 +156,7 @@ projects[multiupload_filefield_widget][subdir] = contrib
 projects[multiupload_imagefield_widget][subdir] = contrib
 projects[navigation404][subdir] = contrib
 projects[node_embed][subdir] = contrib
+projects[nodeaccess_password][subdir] = contrib
 projects[nodequeue][subdir] = contrib
 projects[nodereference_url][subdir] = contrib
 projects[oauth2_server][subdir] = contrib
