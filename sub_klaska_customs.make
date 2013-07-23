@@ -83,6 +83,11 @@ projects[tymalligatorscz_theme][download][type] = git
 projects[tymalligatorscz_theme][download][url] = "git@bitbucket.org:radimklaska/tymalligatorscz_theme.git"
 projects[tymalligatorscz_theme][subdir] = custom
 
+projects[wildinpraguecom_theme][type] = theme
+projects[wildinpraguecom_theme][download][type] = git
+projects[wildinpraguecom_theme][download][url] = "git@bitbucket.org:radimklaska/wildinpraguecom_theme.git"
+projects[wildinpraguecom_theme][subdir] = custom
+
 
 
 ; Modules
