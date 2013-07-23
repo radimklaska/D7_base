@@ -304,6 +304,7 @@ projects[devel][subdir] = dev
 projects[devel_image_provider][subdir] = dev
 projects[grammar_parser][subdir] = dev
 projects[grammar_parser_lib][subdir] = dev
+projects[schema][subdir] = dev
 projects[potx][subdir] = dev
 
 
