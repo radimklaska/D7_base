@@ -140,7 +140,7 @@ projects[media_soundcloud][subdir] = contrib
 projects[media_ustream][subdir] = contrib
 projects[media_vimeo][subdir] = contrib
 projects[media_youtube][subdir] = contrib
-projects[menu_token][subdir] = contrib 
+projects[menu_token][subdir] = contrib
 projects[message][subdir] = contrib
 projects[message_notify][subdir] = contrib
 projects[message_subscribe][subdir] = contrib
@@ -304,8 +304,9 @@ projects[devel][subdir] = dev
 projects[devel_image_provider][subdir] = dev
 projects[grammar_parser][subdir] = dev
 projects[grammar_parser_lib][subdir] = dev
-projects[schema][subdir] = dev
+projects[masquerade][subdir] = dev
 projects[potx][subdir] = dev
+projects[schema][subdir] = dev
 
 
 ; Sandboxes
