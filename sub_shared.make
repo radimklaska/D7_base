@@ -8,6 +8,11 @@ projects[phone][subdir] = contrib
 projects[icon][subdir] = contrib
 projects[icon][patch][] = "http://drupal.org/files/2032097-1-has_icon_class_for_blocks.patch"
 
+; Enforce 1.3 version because update to 2.x version requires some manual work, so new release can break stuff
+; See https://groups.drupal.org/node/215218#comment-958673
+projects[media][version] = 1.3
+projects[media][subdir] = contrib
+
 projects[taxonomy_menu][version] = 2.0-alpha2
 projects[taxonomy_menu][subdir] = contrib
 
@@ -135,7 +140,6 @@ projects[libraries][subdir] = contrib
 projects[link][subdir] = contrib
 projects[mailchimp][subdir] = contrib
 projects[mailsystem][subdir] = contrib
-projects[media][subdir] = contrib
 projects[media_soundcloud][subdir] = contrib
 projects[media_ustream][subdir] = contrib
 projects[media_vimeo][subdir] = contrib
