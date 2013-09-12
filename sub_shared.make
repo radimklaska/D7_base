@@ -21,6 +21,7 @@ projects[taxonomy_menu][subdir] = contrib
 ; --------
 projects[addressfield][subdir] = contrib
 projects[admin_menu][subdir] = contrib
+projects[admin_select][subdir] = contrib
 projects[admin_theme][subdir] = contrib
 projects[admin_views][subdir] = contrib
 projects[adminrole][subdir] = contrib
