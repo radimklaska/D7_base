@@ -5,8 +5,15 @@
 projects[phone][version] = 1.x-dev
 projects[phone][subdir] = contrib
 
-projects[icon][subdir] = contrib
-projects[icon][patch][] = "http://drupal.org/files/2032097-1-has_icon_class_for_blocks.patch"
+; Enforce 1.3 version because update to 2.x version requires some manual work, so new release can break stuff
+; See https://groups.drupal.org/node/215218#comment-958673
+projects[media][version] = 1.3
+projects[media][subdir] = contrib
+
+; 403 form not shown for localized URLs: https://drupal.org/node/2045497#comment-7855839
+projects[nodeaccess_password][subdir] = contrib
+projects[nodeaccess_password][version] = 4.5
+projects[nodeaccess_password][patch][] = "https://drupal.org/files/403_form_not_shown_for_localized_URLs-2045497-1.patch"
 
 projects[taxonomy_menu][version] = 2.0-alpha2
 projects[taxonomy_menu][subdir] = contrib
@@ -16,6 +23,7 @@ projects[taxonomy_menu][subdir] = contrib
 ; --------
 projects[addressfield][subdir] = contrib
 projects[admin_menu][subdir] = contrib
+projects[admin_select][subdir] = contrib
 projects[admin_theme][subdir] = contrib
 projects[admin_views][subdir] = contrib
 projects[adminrole][subdir] = contrib
@@ -113,6 +121,7 @@ projects[html5_media][subdir] = contrib
 projects[html5_tools][subdir] = contrib
 projects[http_client][subdir] = contrib
 projects[httprl][subdir] = contrib
+projects[icon][subdir] = contrib
 projects[ife][subdir] = contrib
 projects[image_resize_filter][subdir] = contrib
 projects[imagecache_external][subdir] = contrib
@@ -135,12 +144,11 @@ projects[libraries][subdir] = contrib
 projects[link][subdir] = contrib
 projects[mailchimp][subdir] = contrib
 projects[mailsystem][subdir] = contrib
-projects[media][subdir] = contrib
 projects[media_soundcloud][subdir] = contrib
 projects[media_ustream][subdir] = contrib
 projects[media_vimeo][subdir] = contrib
 projects[media_youtube][subdir] = contrib
-projects[menu_token][subdir] = contrib 
+projects[menu_token][subdir] = contrib
 projects[message][subdir] = contrib
 projects[message_notify][subdir] = contrib
 projects[message_subscribe][subdir] = contrib
@@ -304,7 +312,9 @@ projects[devel][subdir] = dev
 projects[devel_image_provider][subdir] = dev
 projects[grammar_parser][subdir] = dev
 projects[grammar_parser_lib][subdir] = dev
+projects[masquerade][subdir] = dev
 projects[potx][subdir] = dev
+projects[schema][subdir] = dev
 
 
 ; Sandboxes
