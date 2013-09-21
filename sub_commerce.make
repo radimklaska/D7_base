@@ -5,6 +5,11 @@ projects[commerce_flat_rate][subdir] = contrib
 projects[commerce_flat_rate][version] = 1.0-beta2
 projects[commerce_flat_rate][patch][] = "http://drupal.org/files/commerce_flat_rate-1480654-7.patch"
 
+; Update Czech VAT rates: https://drupal.org/node/1992784#comment-7471764
+projects[commerce_eu_vat][subdir] = contrib
+projects[commerce_eu_vat][version] = 2.0-rc1
+projects[commerce_eu_vat][patch][] = "https://drupal.org/files/commerce_eu_vat.czech-republic.1992784-9.patch"
+
 ; Drupal Commerce
 ; --------
 projects[commerce][subdir] = contrib
@@ -22,7 +27,6 @@ projects[commerce_coupon][subdir] = contrib
 projects[commerce_credits][subdir] = contrib
 projects[commerce_custom_order_status][subdir] = contrib
 projects[commerce_devel][subdir] = contrib
-projects[commerce_eu_vat][subdir] = contrib
 projects[commerce_extra][subdir] = contrib
 projects[commerce_extra_panes][subdir] = contrib
 projects[commerce_extra_price_formatters][subdir] = contrib
