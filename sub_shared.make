@@ -10,6 +10,11 @@ projects[phone][subdir] = contrib
 projects[media][version] = 1.3
 projects[media][subdir] = contrib
 
+; 403 form not shown for localized URLs: https://drupal.org/node/2045497#comment-7855839
+projects[nodeaccess_password][subdir] = contrib
+projects[nodeaccess_password][version] = 4.5
+projects[nodeaccess_password][patch][] = "https://drupal.org/files/403_form_not_shown_for_localized_URLs-2045497-1.patch"
+
 projects[taxonomy_menu][version] = 2.0-alpha2
 projects[taxonomy_menu][subdir] = contrib
 
@@ -159,7 +164,6 @@ projects[multiupload_filefield_widget][subdir] = contrib
 projects[multiupload_imagefield_widget][subdir] = contrib
 projects[navigation404][subdir] = contrib
 projects[node_embed][subdir] = contrib
-projects[nodeaccess_password][subdir] = contrib
 projects[nodequeue][subdir] = contrib
 projects[nodereference_url][subdir] = contrib
 projects[oauth2_server][subdir] = contrib
