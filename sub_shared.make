@@ -319,9 +319,10 @@ projects[schema][subdir] = dev
 
 ; Sandboxes
 ; --------
+;This is now regular module https://drupal.org/project/turnjs , but does not have release, we will get copy from git repo
 projects[turnjs][type] = module
 projects[turnjs][download][type] = git
-projects[turnjs][download][url] = "http://git.drupal.org/sandbox/michaellenahan/1798746.git"
+projects[turnjs][download][url] = "http://git.drupal.org/project/turnjs.git"
 projects[turnjs][download][branch] = 7.x-1.x
 projects[turnjs][subdir] = sandbox
 
