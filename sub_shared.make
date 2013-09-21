@@ -5,9 +5,6 @@
 projects[phone][version] = 1.x-dev
 projects[phone][subdir] = contrib
 
-projects[icon][subdir] = contrib
-projects[icon][patch][] = "http://drupal.org/files/2032097-1-has_icon_class_for_blocks.patch"
-
 ; Enforce 1.3 version because update to 2.x version requires some manual work, so new release can break stuff
 ; See https://groups.drupal.org/node/215218#comment-958673
 projects[media][version] = 1.3
@@ -119,6 +116,7 @@ projects[html5_media][subdir] = contrib
 projects[html5_tools][subdir] = contrib
 projects[http_client][subdir] = contrib
 projects[httprl][subdir] = contrib
+projects[icon][subdir] = contrib
 projects[ife][subdir] = contrib
 projects[image_resize_filter][subdir] = contrib
 projects[imagecache_external][subdir] = contrib
