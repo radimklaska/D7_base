@@ -133,3 +133,8 @@ projects[klaska_kalendardiar_feature][type] = module
 projects[klaska_kalendardiar_feature][download][type] = git
 projects[klaska_kalendardiar_feature][download][url] = "git@bitbucket.org:radimklaska/klaska_kalendardiar_feature.git"
 projects[klaska_kalendardiar_feature][subdir] = custom
+
+projects[emadisoncz_migrations][type] = module
+projects[emadisoncz_migrations][download][type] = git
+projects[emadisoncz_migrations][download][url] = "git@bitbucket.org:radimklaska/emadisoncz_migrations.git"
+projects[emadisoncz_migrations][subdir] = custom
