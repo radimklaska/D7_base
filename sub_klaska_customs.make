@@ -2,6 +2,9 @@
 ; Generic custom modules
 ; --------
 
+; Modules
+; --------
+
 projects[klaska_admintools][type] = module
 projects[klaska_admintools][download][type] = git
 projects[klaska_admintools][download][url] = "git@github.com:radimklaska/klaska_admintools.git"
@@ -12,13 +15,30 @@ projects[klaska_slideshow][download][type] = git
 projects[klaska_slideshow][download][url] = "git@github.com:radimklaska/klaska_slideshow.git"
 projects[klaska_slideshow][subdir] = custom
 
+projects[hookin_client][type] = module
+projects[hookin_client][download][type] = git
+projects[hookin_client][download][url] = "git@bitbucket.org:radimklaska/hookin_client.git"
+projects[hookin_client][download][branch] = "7.x-1.0"
+projects[hookin_client][subdir] = custom
+
+projects[commerce_czfeeds][type] = module
+projects[commerce_czfeeds][download][type] = git
+projects[commerce_czfeeds][download][url] = "git@bitbucket.org:radimklaska/commerce_czfeeds.git"
+projects[commerce_czfeeds][download][branch] = "7.x-1.0"
+projects[commerce_czfeeds][subdir] = custom
+
+
+
+; Themes
+; --------
+
+; No generic custom themes :(
+
 
 
 ; --------
 ; Project specific stuff
 ; --------
-
-
 
 ; Themes
 ; --------
@@ -42,6 +62,12 @@ projects[hookincz_theme][type] = theme
 projects[hookincz_theme][download][type] = git
 projects[hookincz_theme][download][url] = "git@bitbucket.org:radimklaska/hookincz_theme.git"
 projects[hookincz_theme][subdir] = custom
+
+projects[jaderkacz_theme][type] = theme
+projects[jaderkacz_theme][download][type] = git
+projects[jaderkacz_theme][download][url] = "git@bitbucket.org:radimklaska/jaderkacz_theme.git"
+projects[jaderkacz_theme][download][branch] = "7.x-1.0"
+projects[jaderkacz_theme][subdir] = custom
 
 projects[klaska_anafe][type] = theme
 projects[klaska_anafe][download][type] = git

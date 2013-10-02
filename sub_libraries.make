@@ -11,6 +11,11 @@ libraries[colorbox][download][url] = "git://github.com/jackmoore/colorbox.git"
 libraries[colorbox][directory_name] = "colorbox"
 libraries[colorbox][destination] = "libraries"
 
+libraries[chosen][download][type] = "get"
+libraries[chosen][download][url] = "https://github.com/harvesthq/chosen/releases/download/1.0.0/chosen_v1.0.0.zip"
+libraries[chosen][directory_name] = "chosen"
+libraries[chosen][destination] = "libraries"
+
 libraries[oauth2-server-php][download][type] = "git"
 libraries[oauth2-server-php][download][url] = "git://github.com/bshaffer/oauth2-server-php.git"
 libraries[oauth2-server-php][directory_name] = "oauth2-server-php"
