@@ -89,6 +89,11 @@ projects[klaska_timdesign][download][type] = git
 projects[klaska_timdesign][download][url] = "git@bitbucket.org:radimklaska/klaska_timdesign.git"
 projects[klaska_timdesign][subdir] = custom
 
+projects[klaska_timdesign][type] = theme
+projects[klaska_timdesign][download][type] = git
+projects[klaska_timdesign][download][url] = "git@bitbucket.org:radimklaska/levneplackycz_theme.git"
+projects[klaska_timdesign][subdir] = custom
+
 projects[novikapluscz_theme][type] = theme
 projects[novikapluscz_theme][download][type] = git
 projects[novikapluscz_theme][download][url] = "git@bitbucket.org:radimklaska/novikapluscz_theme.git"
@@ -108,6 +113,11 @@ projects[tymalligatorscz_theme][type] = theme
 projects[tymalligatorscz_theme][download][type] = git
 projects[tymalligatorscz_theme][download][url] = "git@bitbucket.org:radimklaska/tymalligatorscz_theme.git"
 projects[tymalligatorscz_theme][subdir] = custom
+
+ projects[wildinpraguecom_theme][type] = theme
+projects[wildinpraguecom_theme][download][type] = git
+projects[wildinpraguecom_theme][download][url] = "git@bitbucket.org:radimklaska/volvotunecom_theme.git"
+projects[wildinpraguecom_theme][subdir] = custom
 
 projects[wildinpraguecom_theme][type] = theme
 projects[wildinpraguecom_theme][download][type] = git
