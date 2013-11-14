@@ -63,6 +63,7 @@ projects[eck][subdir] = contrib
 projects[editablefields][subdir] = contrib
 projects[elements][subdir] = contrib
 projects[elysia_cron][subdir] = contrib
+projects[empty_front_page][subdir] = contrib
 projects[entity][subdir] = contrib
 projects[entityreference][subdir] = contrib
 projects[environment_indicator][subdir] = contrib
