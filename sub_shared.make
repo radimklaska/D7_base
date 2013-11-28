@@ -150,6 +150,7 @@ projects[media_soundcloud][subdir] = contrib
 projects[media_ustream][subdir] = contrib
 projects[media_vimeo][subdir] = contrib
 projects[media_youtube][subdir] = contrib
+projects[menu_admin_per_menu][subdir] = contrib
 projects[menu_token][subdir] = contrib
 projects[message][subdir] = contrib
 projects[message_notify][subdir] = contrib
