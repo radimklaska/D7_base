@@ -369,7 +369,7 @@ projects[sky][subdir] = contrib
 ; Themes
 ; --------
 projects[acquia_prosper][subdir] = contrib
-projects[blogbuzz][subdir] = contrib
+;projects[blogbuzz][subdir] = contrib
 projects[corporateclean][subdir] = contrib
 projects[fusion][subdir] = contrib
 projects[havasu][subdir] = contrib
