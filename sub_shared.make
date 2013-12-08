@@ -314,11 +314,13 @@ projects[coder][subdir] = dev
 projects[coder_tough_love][subdir] = dev
 projects[devel][subdir] = dev
 projects[devel_image_provider][subdir] = dev
+projects[devel_themer][subdir] = dev
 projects[grammar_parser][subdir] = dev
 projects[grammar_parser_lib][subdir] = dev
 projects[masquerade][subdir] = dev
 projects[potx][subdir] = dev
 projects[schema][subdir] = dev
+projects[simplehtmldom][subdir] = dev
 
 
 ; Sandboxes
