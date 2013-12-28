@@ -33,6 +33,7 @@ projects[commerce_feeds][subdir] = contrib
 projects[commerce_file][subdir] = contrib
 projects[commerce_google_analytics][subdir] = contrib
 projects[commerce_invoice][subdir] = contrib
+projects[commerce_license][subdir] = contrib
 projects[commerce_message][subdir] = contrib
 projects[commerce_migrate][subdir] = contrib
 projects[commerce_migrate_ubercart][subdir] = contrib
