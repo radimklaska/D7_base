@@ -40,12 +40,14 @@ projects[autocomplete_widgets][subdir] = contrib
 projects[better_formats][subdir] = contrib
 projects[block_class][subdir] = contrib
 projects[block_icons][subdir] = contrib
+projects[boolean_formatter][subdir] = contrib
 projects[bpc_entityreference][subdir] = contrib
 projects[bundle_copy][subdir] = contrib
 projects[bundleswitcher][subdir] = contrib
 projects[calendar][subdir] = contrib
 projects[checklistapi][subdir] = contrib
 projects[chosen][subdir] = contrib
+projects[clients][subdir] = contrib
 projects[clientside_validation][subdir] = contrib
 projects[cloud_zoom][subdir] = contrib
 projects[colorbox][subdir] = contrib
@@ -291,7 +293,6 @@ projects[wf][subdir] = contrib
 projects[] = services
 ;Services cant be located in contrib folder because of http://drupal.org/node/1355952#comment-5799188
 ;projects[services][subdir] = contrib
-projects[services_client][subdir] = contrib
 projects[services_entity][subdir] = contrib
 projects[services_views][subdir] = contrib
 
