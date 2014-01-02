@@ -172,6 +172,7 @@ projects[mobile_codes][subdir] = contrib
 projects[module_filter][subdir] = contrib
 projects[mollom][subdir] = contrib
 projects[multiform][subdir] = contrib
+projects[multiselect][subdir] = contrib
 projects[multiupload_filefield_widget][subdir] = contrib
 projects[multiupload_imagefield_widget][subdir] = contrib
 projects[navigation404][subdir] = contrib
