@@ -249,6 +249,7 @@ projects[syslog_advanced][subdir] = contrib
 projects[taxonomy_container][subdir] = contrib
 projects[tb_megamenu][subdir] = contrib
 projects[themekey][subdir] = contrib
+projects[title][subdir] = contrib
 projects[token][subdir] = contrib
 projects[transliteration][subdir] = contrib
 projects[twitter][subdir] = contrib
