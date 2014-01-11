@@ -47,7 +47,7 @@ libraries[autopager][download][type] = "file"
 libraries[autopager][download][url] = "http://jquery-autopager.googlecode.com/files/jquery.autopager-1.0.0.js"
 
 libraries[plupload][download][type] = "file"
-libraries[plupload][download][url] = "https://github.com/downloads/moxiecode/plupload/plupload_1_5_4.zip"
+libraries[plupload][download][url] = "https://github.com/moxiecode/plupload/archive/v1.5.8.zip"
 libraries[plupload][destination] = "libraries"
 
 libraries[superfish][download][type] = "git"
