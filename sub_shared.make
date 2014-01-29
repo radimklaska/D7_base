@@ -282,6 +282,7 @@ projects[views_xml_backend][subdir] = contrib
 projects[visualization][subdir] = contrib
 projects[waypoints][subdir] = contrib
 projects[webform][subdir] = contrib
+projects[webform_localization][subdir] = contrib
 projects[webform_validation][subdir] = contrib
 projects[workbench][subdir] = contrib
 projects[workbench_access][subdir] = contrib
