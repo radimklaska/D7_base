@@ -27,6 +27,15 @@ projects[commerce_czfeeds][download][url] = "git@bitbucket.org:radimklaska/comme
 projects[commerce_czfeeds][download][branch] = "7.x-1.0"
 projects[commerce_czfeeds][subdir] = custom
 
+projects[volvotunecom_serverconnector][type] = module
+projects[volvotunecom_serverconnector][download][type] = git
+projects[volvotunecom_serverconnector][download][url] = "git@bitbucket.org:radimklaska/volvotunecom_serverconnector.git"
+projects[volvotunecom_serverconnector][subdir] = custom
+
+projects[volvotunecom_themetweaks][type] = module
+projects[volvotunecom_themetweaks][download][type] = git
+projects[volvotunecom_themetweaks][download][url] = "git@bitbucket.org:radimklaska/volvotunecom_themetweaks.git"
+projects[volvotunecom_themetweaks][subdir] = custom
 
 
 ; Themes
