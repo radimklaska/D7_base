@@ -32,6 +32,11 @@ projects[volvotunecom_serverconnector][download][type] = git
 projects[volvotunecom_serverconnector][download][url] = "git@bitbucket.org:radimklaska/volvotunecom_serverconnector.git"
 projects[volvotunecom_serverconnector][subdir] = custom
 
+projects[volvotunecom_themetweaks][type] = module
+projects[volvotunecom_themetweaks][download][type] = git
+projects[volvotunecom_themetweaks][download][url] = "git@bitbucket.org:radimklaska/volvotunecom_themetweaks.git"
+projects[volvotunecom_themetweaks][subdir] = custom
+
 
 ; Themes
 ; --------
