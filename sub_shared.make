@@ -140,6 +140,7 @@ projects[ife][subdir] = contrib
 projects[image_resize_filter][subdir] = contrib
 projects[image_url_formatter][subdir] = contrib
 projects[imagecache_external][subdir] = contrib
+projects[imagefield_focus][subdir] = contrib
 projects[imagemagick][subdir] = contrib
 projects[imagematrix][subdir] = contrib
 projects[inline_entity_form][subdir] = contrib
