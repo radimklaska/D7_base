@@ -5,6 +5,13 @@ projects[commerce_flat_rate][subdir] = contrib
 projects[commerce_flat_rate][version] = 1.0-beta2
 projects[commerce_flat_rate][patch][] = "http://drupal.org/files/commerce_flat_rate-1480654-7.patch"
 
+; This module does not have stable release yet - check https://drupal.org/project/commerce_bundle
+projects[commerce_bundle][type] = module
+projects[commerce_bundle][download][type] = git
+projects[commerce_bundle][download][url] = "http://git.drupal.org/project/commerce_bundle.git"
+projects[commerce_bundle][download][branch] = 7.x-1.x
+projects[commerce_bundle][subdir] = contrib
+
 
 ; Drupal Commerce
 ; --------
