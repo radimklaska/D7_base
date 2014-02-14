@@ -103,6 +103,11 @@ projects[levneplackycz_theme][download][type] = git
 projects[levneplackycz_theme][download][url] = "git@bitbucket.org:radimklaska/levneplackycz_theme.git"
 projects[levneplackycz_theme][subdir] = custom
 
+projects[nazarkebabcz_theme][type] = theme
+projects[nazarkebabcz_theme][download][type] = git
+projects[nazarkebabcz_theme][download][url] = "git@bitbucket.org:radimklaska/nazarkebabcz_theme.git"
+projects[nazarkebabcz_theme][subdir] = custom
+
 projects[novikapluscz_theme][type] = theme
 projects[novikapluscz_theme][download][type] = git
 projects[novikapluscz_theme][download][url] = "git@bitbucket.org:radimklaska/novikapluscz_theme.git"
