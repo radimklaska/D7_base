@@ -2,8 +2,11 @@
 ; --------
 
 ; See https://drupal.org/node/2116671
+projects[commerce_eu_vat][subdir] = module
+projects[commerce_eu_vat][download][type] = git
+projects[commerce_eu_vat][download][url] = "http://git.drupal.org/project/commerce_eu_vat.git"
+projects[commerce_eu_vat][download][branch] = 7.x-2.1
 projects[commerce_eu_vat][subdir] = contrib
-projects[commerce_eu_vat][version] = 2.1
 
 ; See https://drupal.org/node/1480654
 projects[commerce_flat_rate][subdir] = contrib
