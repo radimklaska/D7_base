@@ -1,6 +1,14 @@
 ; Specific versions and other unusual stuff
 ; --------
 
+; See https://drupal.org/node/2116671
+projects[commerce_eu_vat][subdir] = module
+projects[commerce_eu_vat][download][type] = git
+projects[commerce_eu_vat][download][url] = "http://git.drupal.org/project/commerce_eu_vat.git"
+projects[commerce_eu_vat][download][branch] = 7.x-2.1
+projects[commerce_eu_vat][subdir] = contrib
+
+; See https://drupal.org/node/1480654
 projects[commerce_flat_rate][subdir] = contrib
 projects[commerce_flat_rate][version] = 1.0-beta2
 projects[commerce_flat_rate][patch][] = "http://drupal.org/files/commerce_flat_rate-1480654-7.patch"
@@ -29,8 +37,9 @@ projects[commerce_checkout_progress][subdir] = contrib
 projects[commerce_coupon][subdir] = contrib
 projects[commerce_credits][subdir] = contrib
 projects[commerce_custom_order_status][subdir] = contrib
+projects[commerce_custom_product][subdir] = contrib
 projects[commerce_devel][subdir] = contrib
-projects[commerce_eu_vat][subdir] = contrib
+projects[commerce_donate][subdir] = contrib
 projects[commerce_extra][subdir] = contrib
 projects[commerce_extra_panes][subdir] = contrib
 projects[commerce_extra_price_formatters][subdir] = contrib
