@@ -425,6 +425,7 @@ projects[fusion][subdir] = contrib
 projects[havasu][subdir] = contrib
 projects[lc3_clean][subdir] = contrib
 projects[marinelli][subdir] = contrib
+projects[nexus][subdir] = contrib
 projects[ninesixty][subdir] = contrib
 projects[openpublic_eu][subdir] = contrib
 projects[rootcandy][subdir] = contrib
