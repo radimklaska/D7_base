@@ -18,6 +18,18 @@ projects[nodeaccess_password][patch][] = "https://drupal.org/files/403_form_not_
 projects[taxonomy_menu][version] = 2.0-alpha2
 projects[taxonomy_menu][subdir] = contrib
 
+; Force 2.0 becase next version will have .make included. See: http://drupalcode.org/project/fullcalendar.git/commitdiff/3290628244cd084c90b0a2b9e20b097baf3977c5 ( https://drupal.org/node/1950364 )
+; This .make uses [download][subtree] which is not supported by drush 4 (used in BOA as default)
+; Since [subtree] is needed to download the library and I can't use for now - mirror: https://github.com/radimklaska/fullcalendar
+projects[fullcalendar][subdir] = contrib
+projects[fullcalendar][version] = 2.0
+
+; Quick fix for non-empty value condition on address field until following issues are resolved:
+; https://drupal.org/node/1263316
+; https://drupal.org/node/1844846
+; https://drupal.org/node/968112
+projects[address_empty][subdir] = contrib
+
 
 ; Common modules
 ; --------
@@ -121,6 +133,7 @@ projects[force_password_change][subdir] = contrib
 projects[form_builder][subdir] = contrib
 projects[forward][subdir] = contrib
 projects[ftools][subdir] = contrib
+projects[fullcalendar_mini][subdir] = contrib
 projects[gist_filter][subdir] = contrib
 projects[github_api][subdir] = contrib
 projects[github_connect][subdir] = contrib
@@ -412,6 +425,7 @@ projects[fusion][subdir] = contrib
 projects[havasu][subdir] = contrib
 projects[lc3_clean][subdir] = contrib
 projects[marinelli][subdir] = contrib
+projects[nexus][subdir] = contrib
 projects[ninesixty][subdir] = contrib
 projects[openpublic_eu][subdir] = contrib
 projects[rootcandy][subdir] = contrib

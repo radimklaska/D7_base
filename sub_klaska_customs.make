@@ -2,6 +2,11 @@
 ; Generic custom modules
 ; --------
 
+projects[apikey][type] = module
+projects[apikey][download][type] = git
+projects[apikey][download][url] = "git@bitbucket.org:radimklaska/apikey.git"
+projects[apikey][subdir] = custom
+
 ; Modules
 ; --------
 
@@ -26,6 +31,16 @@ projects[commerce_czfeeds][download][type] = git
 projects[commerce_czfeeds][download][url] = "git@bitbucket.org:radimklaska/commerce_czfeeds.git"
 projects[commerce_czfeeds][download][branch] = "7.x-1.0"
 projects[commerce_czfeeds][subdir] = custom
+
+projects[userbonitacom_service][type] = module
+projects[userbonitacom_service][download][type] = git
+projects[userbonitacom_service][download][url] = "git@bitbucket.org:radimklaska/userbonitacom_service.git"
+projects[userbonitacom_service][subdir] = custom
+
+projects[userbonita_client][type] = module
+projects[userbonita_client][download][type] = git
+projects[userbonita_client][download][url] = "git@bitbucket.org:radimklaska/userbonita_client.git"
+projects[userbonita_client][subdir] = custom
 
 projects[volvotunecom_serverconnector][type] = module
 projects[volvotunecom_serverconnector][download][type] = git

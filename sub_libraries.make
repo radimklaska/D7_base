@@ -70,3 +70,8 @@ libraries[flexslider][directory_name] = "flexslider"
 libraries[ckeditor][download][type] = "file"
 libraries[ckeditor][download][url] = "http://download.cksource.com/CKEditor/CKEditor/CKEditor%203.6.1/ckeditor_3.6.1.tar.gz"
 libraries[ckeditor][destination] = "libraries"
+
+libraries[fullcalendar][download][type] = "git"
+libraries[fullcalendar][download][url] = "git://github.com/radimklaska/fullcalendar.git"
+libraries[fullcalendar][directory_name] = "fullcalendar"
+libraries[fullcalendar][destination] = "libraries"
