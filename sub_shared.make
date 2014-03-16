@@ -24,6 +24,12 @@ projects[taxonomy_menu][subdir] = contrib
 projects[fullcalendar][subdir] = contrib
 projects[fullcalendar][version] = 2.0
 
+; Quick fix for non-empty value condition on address field until following issues are resolved:
+; https://drupal.org/node/1263316
+; https://drupal.org/node/1844846
+; https://drupal.org/node/968112
+projects[address_empty][subdir] = contrib
+
 
 ; Common modules
 ; --------
