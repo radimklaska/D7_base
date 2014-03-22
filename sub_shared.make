@@ -30,6 +30,18 @@ projects[fullcalendar][version] = 2.0
 ; https://drupal.org/node/968112
 projects[address_empty][subdir] = contrib
 
+; 7.x-3.0-alpha1 does not have suport for Date module
+projects[conditional_fields][version] = 3.x-dev
+projects[conditional_fields][subdir] = contrib
+
+; 7.x-1.4 doesn't suppot per content type settings
+projects[save_draft][version] = 1.x-dev
+projects[save_draft][subdir] = contrib
+
+; 7.x-1.0-beta1 Project page : "The current stable release is NOT compatible with Workflow 2.0 Instead, use the development release"
+projects[workflow_fields][version] = 1.x-dev
+projects[workflow_fields][subdir] = contrib
+
 
 ; Common modules
 ; --------
@@ -152,6 +164,7 @@ projects[icon][subdir] = contrib
 projects[ife][subdir] = contrib
 projects[image_resize_filter][subdir] = contrib
 projects[image_url_formatter][subdir] = contrib
+projects[imagecache_actions][subdir] = contrib
 projects[imagecache_external][subdir] = contrib
 projects[imagefield_focus][subdir] = contrib
 projects[imagemagick][subdir] = contrib
@@ -171,6 +184,7 @@ projects[l10n_update][subdir] = contrib
 projects[less][subdir] = contrib
 projects[libraries][subdir] = contrib
 projects[link][subdir] = contrib
+projects[login_destination][subdir] = contrib
 projects[mailchimp][subdir] = contrib
 projects[mailsystem][subdir] = contrib
 projects[media_soundcloud][subdir] = contrib
@@ -228,6 +242,7 @@ projects[realname][subdir] = contrib
 projects[references][subdir] = contrib
 projects[registration][subdir] = contrib
 projects[remote_stream_wrapper][subdir] = contrib
+projects[resource_conflict][subdir] = contrib
 projects[resp_img][subdir] = contrib
 projects[responsive_menus][subdir] = contrib
 projects[resumable_download][subdir] = contrib
@@ -301,6 +316,7 @@ projects[workbench][subdir] = contrib
 projects[workbench_access][subdir] = contrib
 projects[workbench_media][subdir] = contrib
 projects[workbench_moderation][subdir] = contrib
+projects[workflow][subdir] = contrib
 projects[wysiwyg][subdir] = contrib
 projects[wysiwyg_filter][subdir] = contrib
 projects[xautoload][subdir] = contrib
