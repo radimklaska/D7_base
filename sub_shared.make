@@ -30,6 +30,18 @@ projects[fullcalendar][version] = 2.0
 ; https://drupal.org/node/968112
 projects[address_empty][subdir] = contrib
 
+; 7.x-3.0-alpha1 does not have suport for Date module
+projects[conditional_fields][version] = 3.x-dev
+projects[conditional_fields][subdir] = contrib
+
+; 7.x-1.4 doesn't suppot per content type settings
+projects[save_draft][version] = 1.x-dev
+projects[save_draft][subdir] = contrib
+
+; 7.x-1.0-beta1 Project page : "The current stable release is NOT compatible with Workflow 2.0 Instead, use the development release"
+projects[workflow_fields][version] = 1.x-dev
+projects[workflow_fields][subdir] = contrib
+
 
 ; Common modules
 ; --------
