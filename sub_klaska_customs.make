@@ -94,6 +94,11 @@ projects[klaska_timdesign][download][type] = git
 projects[klaska_timdesign][download][url] = "git@bitbucket.org:radimklaska/klaska_timdesign.git"
 projects[klaska_timdesign][subdir] = custom
 
+projects[leonidasteplicecz_theme][type] = theme
+projects[leonidasteplicecz_theme][download][type] = git
+projects[leonidasteplicecz_theme][download][url] = "git@bitbucket.org:radimklaska/leonidasteplicecz_theme.git"
+projects[leonidasteplicecz_theme][subdir] = custom
+
 projects[levneplackycz_theme][type] = theme
 projects[levneplackycz_theme][download][type] = git
 projects[levneplackycz_theme][download][url] = "git@bitbucket.org:radimklaska/levneplackycz_theme.git"
