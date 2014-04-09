@@ -191,6 +191,7 @@ projects[less][subdir] = contrib
 projects[libraries][subdir] = contrib
 projects[link][subdir] = contrib
 projects[login_destination][subdir] = contrib
+projects[login_one_time][subdir] = contrib
 projects[mailchimp][subdir] = contrib
 projects[mailsystem][subdir] = contrib
 projects[media_soundcloud][subdir] = contrib
@@ -403,15 +404,6 @@ projects[turnjs][download][type] = git
 projects[turnjs][download][url] = "http://git.drupal.org/project/turnjs.git"
 projects[turnjs][download][branch] = 7.x-1.x
 projects[turnjs][subdir] = sandbox
-
-
-; GitHub
-; --------
-projects[tec][type] = module
-projects[tec][download][type] = git
-projects[tec][download][url] = "https://github.com/technocratau/tec.git"
-projects[tec][download][branch] = master
-projects[tec][subdir] = sandbox
 
 
 ; Omega theme support modules
