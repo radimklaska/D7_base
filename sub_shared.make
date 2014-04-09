@@ -410,7 +410,7 @@ projects[turnjs][subdir] = sandbox
 ; --------
 projects[tec][type] = module
 projects[tec][download][type] = git
-projects[tec][download][url] = "https://github.com/technocratau/tec.git"
+projects[tec][download][url] = "git@github.com:technocratau/tec.git"
 projects[tec][download][branch] = master
 projects[tec][subdir] = sandbox
 
