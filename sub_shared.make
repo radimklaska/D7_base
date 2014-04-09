@@ -406,15 +406,6 @@ projects[turnjs][download][branch] = 7.x-1.x
 projects[turnjs][subdir] = sandbox
 
 
-; GitHub
-; --------
-projects[tec][type] = module
-projects[tec][download][type] = git
-projects[tec][download][url] = "git@github.com:technocratau/tec.git"
-projects[tec][download][branch] = master
-projects[tec][subdir] = sandbox
-
-
 ; Omega theme support modules
 ; --------
 projects[delta][subdir] = contrib
