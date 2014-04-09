@@ -271,7 +271,6 @@ projects[select_or_other][subdir] = contrib
 projects[seo_checklist][subdir] = contrib
 projects[service_links][subdir] = contrib
 projects[shortcutperrole][subdir] = contrib
-projects[simple_pass_reset][subdir] = contrib
 projects[simplenews][subdir] = contrib
 projects[simplenews_scheduler][subdir] = contrib
 projects[site_verify][subdir] = contrib
