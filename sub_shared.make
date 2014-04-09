@@ -191,6 +191,7 @@ projects[less][subdir] = contrib
 projects[libraries][subdir] = contrib
 projects[link][subdir] = contrib
 projects[login_destination][subdir] = contrib
+projects[login_one_time][subdir] = contrib
 projects[mailchimp][subdir] = contrib
 projects[mailsystem][subdir] = contrib
 projects[media_soundcloud][subdir] = contrib
