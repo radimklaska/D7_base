@@ -21,16 +21,12 @@ includes[klaska_customs] = "https://raw.github.com/radimklaska/D7_base/master/su
 includes[shared] = "https://raw.github.com/radimklaska/D7_base/master/sub_shared.make"
 
 
-; Omega 4 theming suite
-includes[omega4] = "https://raw.github.com/radimklaska/D7_base/master/sub_omega4.make"
+; Omega 3 theming suite
+includes[omega3] = "https://raw.github.com/radimklaska/D7_base/master/sub_omega3.make"
 
 
 ; Modules for Apache Solr enabled systems
 includes[solr] = "https://raw.github.com/radimklaska/D7_base/master/sub_solr.make"
-
-
-; Commerce related modules
-includes[commerce] = "https://raw.github.com/radimklaska/D7_base/master/sub_commerce.make"
 
 
 ; Libraries

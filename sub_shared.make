@@ -406,24 +406,6 @@ projects[turnjs][download][branch] = 7.x-1.x
 projects[turnjs][subdir] = sandbox
 
 
-; Omega theme support modules
-; --------
-projects[delta][subdir] = contrib
-projects[omega_tools][subdir] = contrib
-
-
-; Omega themes
-; --------
-projects[omega][subdir] = contrib
-projects[omega][version] = 3.1
-; ---
-projects[alphorn][subdir] = contrib
-projects[beta][subdir] = contrib
-projects[conch][subdir] = contrib
-projects[gamma][subdir] = contrib
-projects[navin][subdir] = contrib
-
-
 ; AdaptiveTheme
 ; --------
 projects[adaptivetheme][subdir] = contrib
