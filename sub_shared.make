@@ -42,6 +42,11 @@ projects[save_draft][subdir] = contrib
 projects[workflow_fields][version] = 1.x-dev
 projects[workflow_fields][subdir] = contrib
 
+; Make sure we switch to nodequeue 3.x manually with full auto_nodequeue support
+projects[nodequeue][version] = 2.0-beta1
+projects[nodequeue][subdir] = contrib
+projects[auto_nodequeue][subdir] = contrib
+
 
 ; Common modules
 ; --------
@@ -58,7 +63,6 @@ projects[affiliate_ng][subdir] = contrib
 projects[agrcache][subdir] = contrib
 projects[ais][subdir] = contrib
 projects[allow_all_file_extensions][subdir] = contrib
-projects[auto_nodequeue][subdir] = contrib
 projects[auto_nodetitle][subdir] = contrib
 projects[autocomplete_widgets][subdir] = contrib
 projects[better_formats][subdir] = contrib
@@ -219,7 +223,6 @@ projects[navigation404][subdir] = contrib
 projects[newsletter][subdir] = contrib
 projects[node_embed][subdir] = contrib
 projects[nodeaccess_userreference][subdir] = contrib
-projects[nodequeue][subdir] = contrib
 projects[nodereference_url][subdir] = contrib
 projects[oauth2_server][subdir] = contrib
 projects[oauth][subdir] = contrib
