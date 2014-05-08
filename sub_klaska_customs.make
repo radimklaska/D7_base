@@ -119,6 +119,12 @@ projects[rudlasrocz_theme][download][type] = git
 projects[rudlasrocz_theme][download][url] = "git@bitbucket.org:radimklaska/rudlasrocz_theme.git"
 projects[rudlasrocz_theme][subdir] = custom
 
+projects[saveidcom_theme][type] = theme
+projects[saveidcom_theme][download][type] = git
+projects[saveidcom_theme][download][url] = "git@bitbucket.org:radimklaska/saveidcom_theme.git"
+projects[saveidcom_theme][download][branch] = "dev"
+projects[saveidcom_theme][subdir] = custom
+
 projects[trezorcentrumcz_theme][type] = theme
 projects[trezorcentrumcz_theme][download][type] = git
 projects[trezorcentrumcz_theme][download][url] = "git@bitbucket.org:radimklaska/trezorcentrumcz_theme.git"
