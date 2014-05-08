@@ -298,6 +298,7 @@ projects[token][subdir] = contrib
 projects[transliteration][subdir] = contrib
 projects[twitter][subdir] = contrib
 projects[unsubscribe][subdir] = contrib
+projects[url][subdir] = contrib
 projects[user_permissions][subdir] = contrib
 projects[userpoints][subdir] = contrib
 projects[uuid][subdir] = contrib
