@@ -90,6 +90,7 @@ projects[css_injector][subdir] = contrib
 projects[ctools][subdir] = contrib
 projects[date][subdir] = contrib
 projects[date_facets][subdir] = contrib
+projects[dev_roles_users][subdir] = contrib
 projects[diff][subdir] = contrib
 projects[domain][subdir] = contrib
 projects[draggableviews][subdir] = contrib
@@ -97,11 +98,13 @@ projects[ds][subdir] = contrib
 projects[dynamic_background][subdir] = contrib
 projects[eck][subdir] = contrib
 projects[editablefields][subdir] = contrib
+projects[editableviews][subdir] = contrib
 projects[elements][subdir] = contrib
 projects[elysia_cron][subdir] = contrib
 projects[empty_front_page][subdir] = contrib
 projects[entity][subdir] = contrib
 projects[entity_bundle_plugin][subdir] = contrib
+projects[entityform][subdir] = contrib
 projects[entityqueue][subdir] = contrib
 projects[entityreference][subdir] = contrib
 projects[entityreference_prepopulate][subdir] = contrib
@@ -219,6 +222,7 @@ projects[multiform][subdir] = contrib
 projects[multiselect][subdir] = contrib
 projects[multiupload_filefield_widget][subdir] = contrib
 projects[multiupload_imagefield_widget][subdir] = contrib
+projects[nagios][subdir] = contrib
 projects[navigation404][subdir] = contrib
 projects[newsletter][subdir] = contrib
 projects[node_embed][subdir] = contrib
@@ -234,7 +238,6 @@ projects[og_extras][subdir] = contrib
 projects[og_vocab][subdir] = contrib
 projects[options_element][subdir] = contrib
 projects[page_title][subdir] = contrib
-projects[panels][subdir] = contrib
 projects[pasc][subdir] = contrib
 projects[path_breadcrumbs][subdir] = contrib
 projects[pathauto][subdir] = contrib
@@ -315,6 +318,7 @@ projects[views_infinite_scroll][subdir] = contrib
 projects[views_litepager][subdir] = contrib
 projects[views_load_more][subdir] = contrib
 projects[views_megarow][subdir] = contrib
+projects[views_send][subdir] = contrib
 projects[views_slideshow][subdir] = contrib
 projects[views_slideshow_slider][subdir] = contrib
 projects[views_tree][subdir] = contrib
@@ -333,6 +337,15 @@ projects[wysiwyg][subdir] = contrib
 projects[wysiwyg_filter][subdir] = contrib
 projects[xautoload][subdir] = contrib
 projects[xmlsitemap][subdir] = contrib
+
+
+; Panels
+; --------
+projects[fieldable_panels_panes][subdir] = contrib
+projects[menu_minipanels][subdir] = contrib
+projects[panelizer][subdir] = contrib
+projects[panels][subdir] = contrib
+projects[panels_everywhere][subdir] = contrib
 
 
 ; WF Tools
