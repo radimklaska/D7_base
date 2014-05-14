@@ -47,6 +47,10 @@ projects[nodequeue][version] = 2.0-beta1
 projects[nodequeue][subdir] = contrib
 projects[auto_nodequeue][subdir] = contrib
 
+; Universal analytics are supported only in 2.x
+; 2.x is required by https://drupal.org/project/ga_push
+projects[google_analytics][version] = 2.x-dev
+projects[google_analytics][subdir] = contrib
 
 ; Common modules
 ; --------
@@ -158,12 +162,12 @@ projects[form_builder][subdir] = contrib
 projects[forward][subdir] = contrib
 projects[ftools][subdir] = contrib
 projects[fullcalendar_mini][subdir] = contrib
+projects[ga_push][subdir] = contrib
 projects[gist_filter][subdir] = contrib
 projects[github_api][subdir] = contrib
 projects[github_connect][subdir] = contrib
 projects[globalredirect][subdir] = contrib
 projects[goals][subdir] = contrib
-projects[google_analytics][subdir] = contrib
 projects[google_image_sitemap][subdir] = contrib
 projects[gravatar][subdir] = contrib
 projects[hacked][subdir] = contrib
