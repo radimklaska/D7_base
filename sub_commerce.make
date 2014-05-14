@@ -53,7 +53,6 @@ projects[commerce_fancy_attributes][subdir] = contrib
 projects[commerce_features][subdir] = contrib
 projects[commerce_feeds][subdir] = contrib
 projects[commerce_file][subdir] = contrib
-projects[commerce_invoice][subdir] = contrib
 projects[commerce_license][subdir] = contrib
 projects[commerce_marketplace][subdir] = contrib
 projects[commerce_message][subdir] = contrib
