@@ -47,6 +47,10 @@ projects[nodequeue][version] = 2.0-beta1
 projects[nodequeue][subdir] = contrib
 projects[auto_nodequeue][subdir] = contrib
 
+; Universal analytics are supported only in 2.x
+; 2.x is required by https://drupal.org/project/ga_push
+projects[google_analytics][version] = 2.x-dev
+projects[google_analytics][subdir] = contrib
 
 ; Common modules
 ; --------
@@ -79,6 +83,7 @@ projects[chosen][subdir] = contrib
 projects[clients][subdir] = contrib
 projects[clientside_validation][subdir] = contrib
 projects[cloud_zoom][subdir] = contrib
+projects[coffee][subdir] = contrib
 projects[colorbox][subdir] = contrib
 projects[comment_notify][subdir] = contrib
 projects[composer_manager][subdir] = contrib
@@ -157,17 +162,18 @@ projects[form_builder][subdir] = contrib
 projects[forward][subdir] = contrib
 projects[ftools][subdir] = contrib
 projects[fullcalendar_mini][subdir] = contrib
+projects[ga_push][subdir] = contrib
 projects[gist_filter][subdir] = contrib
 projects[github_api][subdir] = contrib
 projects[github_connect][subdir] = contrib
 projects[globalredirect][subdir] = contrib
 projects[goals][subdir] = contrib
-projects[google_analytics][subdir] = contrib
 projects[google_image_sitemap][subdir] = contrib
 projects[gravatar][subdir] = contrib
 projects[hacked][subdir] = contrib
 projects[hansel][subdir] = contrib
 projects[hide_submit][subdir] = contrib
+projects[hierarchical_select][subdir] = contrib
 projects[html5_media][subdir] = contrib
 projects[html5_tools][subdir] = contrib
 projects[http_client][subdir] = contrib
@@ -259,6 +265,7 @@ projects[remote_stream_wrapper][subdir] = contrib
 projects[resource_conflict][subdir] = contrib
 projects[resp_img][subdir] = contrib
 projects[responsive_menus][subdir] = contrib
+projects[restful][subdir] = contrib
 projects[resumable_download][subdir] = contrib
 projects[role_export][subdir] = contrib
 projects[rolereference][subdir] = contrib

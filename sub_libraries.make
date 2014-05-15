@@ -75,3 +75,8 @@ libraries[fullcalendar][download][type] = "git"
 libraries[fullcalendar][download][url] = "git://github.com/radimklaska/fullcalendar.git"
 libraries[fullcalendar][directory_name] = "fullcalendar"
 libraries[fullcalendar][destination] = "libraries"
+
+libraries[dompdf][download][type] = "get"
+libraries[dompdf][download][url] = "http://dompdf.googlecode.com/files/dompdf_0-6-0_beta3.tar.gz"
+libraries[dompdf][directory_name] = "dompdf"
+libraries[dompdf][destination] = "libraries"
