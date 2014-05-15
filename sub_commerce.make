@@ -20,6 +20,9 @@ projects[commerce_bundle][download][url] = "http://git.drupal.org/project/commer
 projects[commerce_bundle][download][branch] = 7.x-1.x
 projects[commerce_bundle][subdir] = contrib
 
+; Universal analytics are supported only in 2.x
+projects[commerce_google_analytics][version] = 2.x-dev
+projects[commerce_google_analytics][subdir] = contrib
 
 ; Drupal Commerce
 ; --------
@@ -31,9 +34,12 @@ projects[commerce_affiliate][subdir] = contrib
 projects[commerce_auction][subdir] = contrib
 projects[commerce_autosku][subdir] = contrib
 projects[commerce_backoffice][subdir] = contrib
+projects[commerce_billy][subdir] = contrib
+projects[commerce_billy_mail][subdir] = contrib
 projects[commerce_bpc][subdir] = contrib
 projects[commerce_cardonfile][subdir] = contrib
 projects[commerce_checkout_progress][subdir] = contrib
+projects[commerce_coffee][subdir] = contrib
 projects[commerce_coupon][subdir] = contrib
 projects[commerce_credits][subdir] = contrib
 projects[commerce_custom_order_status][subdir] = contrib
@@ -47,8 +53,6 @@ projects[commerce_fancy_attributes][subdir] = contrib
 projects[commerce_features][subdir] = contrib
 projects[commerce_feeds][subdir] = contrib
 projects[commerce_file][subdir] = contrib
-projects[commerce_google_analytics][subdir] = contrib
-projects[commerce_invoice][subdir] = contrib
 projects[commerce_license][subdir] = contrib
 projects[commerce_marketplace][subdir] = contrib
 projects[commerce_message][subdir] = contrib
