@@ -359,6 +359,7 @@ projects[fieldable_panels_panes][subdir] = contrib
 projects[panelizer][subdir] = contrib
 projects[panels][subdir] = contrib
 projects[panels_everywhere][subdir] = contrib
+projects[panels_extra_layouts][subdir] = contrib
 
 
 ; WF Tools
