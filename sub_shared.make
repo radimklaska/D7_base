@@ -142,6 +142,7 @@ projects[feeds_vimeo][subdir] = contrib
 projects[feeds_xpathparser][subdir] = contrib
 projects[feeds_youtube][subdir] = contrib
 projects[fences][subdir] = contrib
+projects[field_collection][subdir] = contrib
 projects[field_delimiter][subdir] = contrib
 projects[field_extractor][subdir] = contrib
 projects[field_extrawidgets][subdir] = contrib
