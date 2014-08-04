@@ -27,11 +27,11 @@
 
 Just copy URL of raw file into Aegir's "Platform Makefile" field when creating new platform.
 
-Raw URL example: `https://raw.githubusercontent.com/radimklaska/D7_base/master/d7_base.make target_folder`
+Raw URL example: `https://raw.githubusercontent.com/radimklaska/D7_base/master/d7_base.make`
 
 ### Drush
 
-* Use this command: `drush make https://raw.githubusercontent.com/radimklaska/D7_base/master/d7_base.make`
+* Use this command: `drush make https://raw.githubusercontent.com/radimklaska/D7_base/master/d7_base.make target_folder`
 * Learn more about Drush make: http://drush.ws/#make
 
 ## Contribution / Issues
@@ -44,3 +44,21 @@ Raw URL example: `https://raw.githubusercontent.com/radimklaska/D7_base/master/d
 * For our clients: We will discuss, but it will be probably accepted.
 * For everyone else: Please provide good reason why we should add it.
 * In case you really need module/change we rejected - use your site specific modules folder or feel free to fork this project.
+
+## Say "Thank you"
+
+* [Buy me a book](https://www.paypal.com/cgi-bin/webscr?cmd=_donations&business=5QQNR98LZBJQS&lc=US&item_name=Klaska%2enet&item_number=github%2dd7make&currency_code=USD&bn=PP%2dDonationsBF%3abtn_donate_SM%2egif%3aNonHosted)
+* [Keep me coffinated](https://www.gittip.com/radimklaska/)
+* Visit: http://hookin.cz
+* Drupal tutorials: http://buildamodule.com/?a=5740
+* Great, cheap, Czech hosting: http://hosting.wedos.com/d/64648
+* Cloud VPS, great for testing: https://www.virtualmaster.com/virtualmaster/referral/6rpgw
+* Try Dropbox and we both get more space: https://www.dropbox.com/referrals/NTExNDczMjUwOQ
+* We are using Subreg to manage domains: https://subreg.cz/af/1e40f7549/
+* Say thank you on Twitter: https://twitter.com/radimklaska
+
+## Honorable mentions
+
+* Thanks Drupal and Aegir community for being so awesome.
+* Thanks https://github.com/pjanda and https://github.com/jardasmahel for helping me.
+* Thanks https://github.com/kratocz for always showing me different perspectives.

@@ -39,6 +39,11 @@ projects[address_empty][subdir] = contrib
 projects[conditional_fields][version] = 3.x-dev
 projects[conditional_fields][subdir] = contrib
 
+; Support pretty paths for Facet API per-facet setting to only allow one active item: https://www.drupal.org/node/1935782#comment-9023391
+projects[facetapi_pretty_paths][subdir] = contrib
+projects[facetapi_pretty_paths][version] = 1.1
+projects[facetapi_pretty_paths][patch][] = "https://www.drupal.org/files/facetapi_pretty_paths-fix-for-facetapi-issue-1393928.patch"
+
 ; 7.x-1.4 doesn't suppot per content type settings
 projects[save_draft][version] = 1.x-dev
 projects[save_draft][subdir] = contrib
@@ -127,7 +132,6 @@ projects[extlink][subdir] = contrib
 projects[facetapi][subdir] = contrib
 projects[facetapi_bonus][subdir] = contrib
 projects[facetapi_i18n][subdir] = contrib
-projects[facetapi_pretty_paths][subdir] = contrib
 projects[facetapi_taxonomy_sort][subdir] = contrib
 projects[fapi_validation][subdir] = contrib
 projects[features][subdir] = contrib
