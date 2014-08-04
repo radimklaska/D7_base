@@ -135,6 +135,11 @@ projects[tymalligatorscz_theme][download][type] = git
 projects[tymalligatorscz_theme][download][url] = "git@bitbucket.org:radimklaska/tymalligatorscz_theme.git"
 projects[tymalligatorscz_theme][subdir] = custom
 
+projects[usteckeforumobcanucz_theme][type] = theme
+projects[usteckeforumobcanucz_theme][download][type] = git
+projects[usteckeforumobcanucz_theme][download][url] = "git@bitbucket.org:radimklaska/usteckeforumobcanucz_theme.git"
+projects[usteckeforumobcanucz_theme][subdir] = custom
+
 projects[volvotunecom_theme][type] = theme
 projects[volvotunecom_theme][download][type] = git
 projects[volvotunecom_theme][download][url] = "git@bitbucket.org:radimklaska/volvotunecom_theme.git"

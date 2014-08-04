@@ -5,6 +5,11 @@
 projects[phone][version] = 1.x-dev
 projects[phone][subdir] = contrib
 
+; Unable to download qTip library inside a drush make process
+; See: https://drupal.org/node/1874246#comment-6877078
+projects[menu_minipanels][subdir] = contrib
+projects[menu_minipanels][patch][] = "https://drupal.org/files/menu_minipanels-qtip-dl-1874246.patch"
+
 ; Enforce 1.3 version because update to 2.x version requires some manual work, so new release can break stuff
 ; See https://groups.drupal.org/node/215218#comment-958673
 projects[media][version] = 1.3
@@ -137,6 +142,7 @@ projects[feeds_vimeo][subdir] = contrib
 projects[feeds_xpathparser][subdir] = contrib
 projects[feeds_youtube][subdir] = contrib
 projects[fences][subdir] = contrib
+projects[field_collection][subdir] = contrib
 projects[field_delimiter][subdir] = contrib
 projects[field_extractor][subdir] = contrib
 projects[field_extrawidgets][subdir] = contrib
@@ -291,6 +297,7 @@ projects[site_verify][subdir] = contrib
 projects[skinr][subdir] = contrib
 projects[sliderfield][subdir] = contrib
 projects[smart_trim][subdir] = contrib
+projects[social_buttons][subdir] = contrib
 projects[special_menu_items][subdir] = contrib
 projects[stringoverrides][subdir] = contrib
 projects[strongarm][subdir] = contrib
@@ -350,10 +357,11 @@ projects[xmlsitemap][subdir] = contrib
 ; Panels
 ; --------
 projects[fieldable_panels_panes][subdir] = contrib
-projects[menu_minipanels][subdir] = contrib
+;projects[menu_minipanels][subdir] = contrib
 projects[panelizer][subdir] = contrib
 projects[panels][subdir] = contrib
 projects[panels_everywhere][subdir] = contrib
+projects[panels_extra_layouts][subdir] = contrib
 
 
 ; WF Tools
