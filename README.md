@@ -27,11 +27,11 @@
 
 Just copy URL of raw file into Aegir's "Platform Makefile" field when creating new platform.
 
-Raw URL example: `https://raw.githubusercontent.com/radimklaska/D7_base/master/d7_base.make target_folder`
+Raw URL example: `https://raw.githubusercontent.com/radimklaska/D7_base/master/d7_base.make`
 
 ### Drush
 
-* Use this command: `drush make https://raw.githubusercontent.com/radimklaska/D7_base/master/d7_base.make`
+* Use this command: `drush make https://raw.githubusercontent.com/radimklaska/D7_base/master/d7_base.make target_folder`
 * Learn more about Drush make: http://drush.ws/#make
 
 ## Contribution / Issues
