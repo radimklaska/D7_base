@@ -194,3 +194,8 @@ projects[volvotunecom_themetweaks][type] = module
 projects[volvotunecom_themetweaks][download][type] = git
 projects[volvotunecom_themetweaks][download][url] = "git@bitbucket.org:radimklaska/volvotunecom_themetweaks.git"
 projects[volvotunecom_themetweaks][subdir] = custom
+
+projects[volvotunecom_vindecoder][type] = module
+projects[volvotunecom_vindecoder][download][type] = git
+projects[volvotunecom_vindecoder][download][url] = "git@bitbucket.org:radimklaska/volvotunecom_vindecoder.git"
+projects[volvotunecom_vindecoder][subdir] = custom
