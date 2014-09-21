@@ -254,6 +254,7 @@ projects[og_extras][subdir] = contrib
 projects[og_vocab][subdir] = contrib
 projects[options_element][subdir] = contrib
 projects[page_title][subdir] = contrib
+projects[paragraphs][subdir] = contrib
 projects[pasc][subdir] = contrib
 projects[path_breadcrumbs][subdir] = contrib
 projects[pathauto][subdir] = contrib
