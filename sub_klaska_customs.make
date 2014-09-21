@@ -145,6 +145,11 @@ projects[volvotunecom_theme][download][type] = git
 projects[volvotunecom_theme][download][url] = "git@bitbucket.org:radimklaska/volvotunecom_theme.git"
 projects[volvotunecom_theme][subdir] = custom
 
+projects[vz_wedding_theme][type] = theme
+projects[vz_wedding_theme][download][type] = git
+projects[vz_wedding_theme][download][url] = "git@bitbucket.org:radimklaska/vz_wedding_theme.git"
+projects[vz_wedding_theme][subdir] = custom
+
 projects[wildinpraguecom_theme][type] = theme
 projects[wildinpraguecom_theme][download][type] = git
 projects[wildinpraguecom_theme][download][url] = "git@bitbucket.org:radimklaska/wildinpraguecom_theme.git"
