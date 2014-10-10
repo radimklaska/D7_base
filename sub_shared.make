@@ -44,7 +44,7 @@ projects[facetapi_pretty_paths][subdir] = contrib
 projects[facetapi_pretty_paths][version] = 1.1
 projects[facetapi_pretty_paths][patch][] = "https://www.drupal.org/files/facetapi_pretty_paths-fix-for-facetapi-issue-1393928.patch"
 
-; 7.x-1.4 doesn't suppot per content type settings
+; 7.x-1.4 doesn't support per content type settings
 projects[save_draft][version] = 1.x-dev
 projects[save_draft][subdir] = contrib
 
@@ -55,6 +55,7 @@ projects[workflow_fields][subdir] = contrib
 ; Make sure we switch to nodequeue 3.x manually with full auto_nodequeue support
 projects[nodequeue][version] = 2.0-beta1
 projects[nodequeue][subdir] = contrib
+projects[auto_nodequeue][version] = 2.1
 projects[auto_nodequeue][subdir] = contrib
 
 ; Universal analytics are supported only in 2.x
