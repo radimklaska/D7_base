@@ -63,6 +63,14 @@ projects[auto_nodequeue][subdir] = contrib
 projects[google_analytics][version] = 2.x-dev
 projects[google_analytics][subdir] = contrib
 
+
+; They rolled back 7.x-2.6-rc1 as recommended release (2.5 is recommended now), but we can't go back...
+projects[migrate][type] = module
+projects[migrate][download][type] = git
+projects[migrate][download][url] = "http://git.drupal.org/project/migrate.git"
+projects[migrate][download][tag] = "7.x-2.6-rc1"
+projects[migrate][subdir] = contrib
+
 ; Common modules
 ; --------
 projects[achievements][subdir] = contrib
@@ -228,7 +236,6 @@ projects[message][subdir] = contrib
 projects[message_notify][subdir] = contrib
 projects[message_subscribe][subdir] = contrib
 projects[metatag][subdir] = contrib
-projects[migrate][subdir] = contrib
 projects[migrate_extras][subdir] = contrib
 projects[mimemail][subdir] = contrib
 projects[misery][subdir] = contrib
