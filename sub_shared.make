@@ -338,6 +338,7 @@ projects[uuid_features][subdir] = contrib
 projects[uuid_link][subdir] = contrib
 projects[variable][subdir] = contrib
 projects[views][subdir] = contrib
+projects[views_bootstrap][subdir] = contrib
 projects[views_bulk_operations][subdir] = contrib
 projects[views_column_class][subdir] = contrib
 projects[views_data_export][subdir] = contrib
