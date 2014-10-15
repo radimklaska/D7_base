@@ -433,7 +433,6 @@ projects[grammar_parser][subdir] = dev
 projects[grammar_parser_lib][subdir] = dev
 projects[masquerade][subdir] = dev
 projects[object_log][subdir] = dev
-projects[potx][subdir] = dev
 projects[schema][subdir] = dev
 projects[simplehtmldom][subdir] = dev
 
