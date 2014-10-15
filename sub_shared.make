@@ -338,7 +338,6 @@ projects[views_date_format_sql][subdir] = contrib
 projects[views_field_view][subdir] = contrib
 projects[views_fluid_grid][subdir] = contrib
 projects[views_geojson][subdir] = contrib
-projects[views_hacks][subdir] = contrib
 projects[views_horizontal_slider][subdir] = contrib
 projects[views_infinite_scroll][subdir] = contrib
 projects[views_litepager][subdir] = contrib
