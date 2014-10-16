@@ -15,6 +15,10 @@ projects[menu_minipanels][patch][] = "https://drupal.org/files/menu_minipanels-q
 projects[media][version] = 1.3
 projects[media][subdir] = contrib
 
+; 7.x-3.x: Branch for Bootstrap 3
+projects[ds_bootstrap_layouts][version] = 3.x-dev
+projects[ds_bootstrap_layouts][subdir] = contrib
+
 ; 403 form not shown for localized URLs: https://drupal.org/node/2045497#comment-7855839
 projects[nodeaccess_password][subdir] = contrib
 projects[nodeaccess_password][version] = 4.5
@@ -92,6 +96,7 @@ projects[better_formats][subdir] = contrib
 projects[block_class][subdir] = contrib
 projects[block_icons][subdir] = contrib
 projects[boolean_formatter][subdir] = contrib
+projects[borealis][subdir] = contrib
 projects[bpc_entityreference][subdir] = contrib
 projects[bundle_copy][subdir] = contrib
 projects[bundleswitcher][subdir] = contrib
