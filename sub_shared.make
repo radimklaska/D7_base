@@ -96,6 +96,7 @@ projects[better_formats][subdir] = contrib
 projects[block_class][subdir] = contrib
 projects[block_icons][subdir] = contrib
 projects[boolean_formatter][subdir] = contrib
+projects[borealis][subdir] = contrib
 projects[bpc_entityreference][subdir] = contrib
 projects[bundle_copy][subdir] = contrib
 projects[bundleswitcher][subdir] = contrib
