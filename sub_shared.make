@@ -274,6 +274,7 @@ projects[pathauto][subdir] = contrib
 projects[pathologic][subdir] = contrib
 projects[pdf_reader][subdir] = contrib
 projects[pdf_to_imagefield][subdir] = contrib
+projects[permissions_per_webform][subdir] = contrib
 projects[plupload][subdir] = contrib
 projects[print][subdir] = contrib
 projects[project_src][subdir] = contrib
