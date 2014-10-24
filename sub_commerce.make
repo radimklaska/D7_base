@@ -90,6 +90,7 @@ projects[commerce_sp_paypal][subdir] = contrib
 projects[commerce_stock][subdir] = contrib
 projects[commerce_subscription][subdir] = contrib
 projects[commerce_tax_reference][subdir] = contrib
+projects[commerce_ups][subdir] = contrib
 projects[commerce_vat][subdir] = contrib
 projects[commerce_vbo_views][subdir] = contrib
 projects[dc_co_pages][subdir] = contrib
