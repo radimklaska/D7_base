@@ -314,6 +314,7 @@ projects[search_krumo][subdir] = contrib
 projects[select_or_other][subdir] = contrib
 projects[seo_checklist][subdir] = contrib
 projects[service_links][subdir] = contrib
+projects[shield][subdir] = contrib
 projects[shortcutperrole][subdir] = contrib
 projects[simplenews][subdir] = contrib
 projects[simplenews_scheduler][subdir] = contrib
