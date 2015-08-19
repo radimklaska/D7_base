@@ -32,7 +32,7 @@ Raw URL example: `https://raw.githubusercontent.com/radimklaska/D7_base/master/d
 ### Drush
 
 * Use this command: `drush make https://raw.githubusercontent.com/radimklaska/D7_base/master/d7_base.make target_folder`
-* Learn more about Drush make: http://drush.ws/#make
+* Learn more about Drush make: http://drushcommands.com/drush-7x/make/make
 
 ## Contribution / Issues
 
