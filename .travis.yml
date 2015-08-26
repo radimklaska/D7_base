@@ -1,0 +1,41 @@
+language: php
+sudo: false
+
+env:
+  - MAKEFILE=d7_base
+  - MAKEFILE=d7_base_omega3
+  - MAKEFILE=d7_commerce
+  - MAKEFILE=d7_commerce_omega3
+
+php:
+  - 5.6
+  - 7.0
+
+matrix:
+  fast_finish: true
+  allow_failures:
+    - php: 7.0
+
+before_install:
+  - export BASEDIR=${PWD}
+
+install:
+  # Update composer
+  - composer self-update
+
+  # Install drush globally
+  - composer global require drush/drush:7.*
+
+  # Add composer's global bin directory to the path
+  - export PATH="$HOME/.composer/vendor/bin:$PATH"
+
+  # Prepare directory.
+  - mkdir -p $BASEDIR/build/$MAKEFILE
+
+before_script:
+  # Don't build from private repositories (at least for now)
+  - sed -i -e 's/includes\[klaska_customs/\#includes\[klaska_customs/g' d7_*.make
+
+script:
+  # Install Drupal
+  - drush make --prepare-install $MAKEFILE.make $BASEDIR/build/$MAKEFILE
