@@ -29,13 +29,10 @@ install:
   # Add composer's global bin directory to the path
   - export PATH="$HOME/.composer/vendor/bin:$PATH"
 
-  # Prepare directory.
-  - mkdir -p $BASEDIR/build/$MAKEFILE
-
 before_script:
   # Don't build from private repositories (at least for now)
   - sed -i -e 's/includes\[klaska_customs/\#includes\[klaska_customs/g' d7_*.make
 
 script:
   # Install Drupal
-  - drush make --prepare-install $MAKEFILE.make $BASEDIR/build/$MAKEFILE
+  - drush make --prepare-install $MAKEFILE.make $BASEDIR/buildtest/$MAKEFILE
