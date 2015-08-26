@@ -1,5 +1,7 @@
 # Klaska.net / Hookin.cz make files
 
+[![Build Status](https://travis-ci.org/radimklaska/D7_base.svg?branch=master)](https://travis-ci.org/radimklaska/D7_base)
+
 ## Features / Purpose
 
 * Compatible with Octopus: https://github.com/omega8cc/boa
