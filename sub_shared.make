@@ -322,6 +322,7 @@ projects[site_verify][subdir] = contrib
 projects[skinr][subdir] = contrib
 projects[sliderfield][subdir] = contrib
 projects[smart_trim][subdir] = contrib
+projects[smtp][subdir] = contrib
 projects[social_buttons][subdir] = contrib
 projects[special_menu_items][subdir] = contrib
 projects[stringoverrides][subdir] = contrib
