@@ -75,7 +75,7 @@ projects[migrate][download][tag] = "7.x-2.6-rc1"
 projects[migrate][subdir] = contrib
 
 ; Force 7.x version.
-projects[jquery_update][version] = 7.x-3.0-alpha3
+projects[jquery_update][version] = 3.0-alpha3
 projects[jquery_update][subdir] = contrib
 
 ; Common modules
