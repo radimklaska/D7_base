@@ -293,6 +293,7 @@ projects[radix_views][subdir] = contrib
 projects[realname][subdir] = contrib
 projects[references][subdir] = contrib
 projects[registration][subdir] = contrib
+projects[registry_autoload][subdir] = contrib
 projects[remote_stream_wrapper][subdir] = contrib
 projects[resource_conflict][subdir] = contrib
 projects[resp_img][subdir] = contrib
