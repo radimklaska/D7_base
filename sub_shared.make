@@ -167,6 +167,7 @@ projects[field_collection][subdir] = contrib
 projects[field_delimiter][subdir] = contrib
 projects[field_extractor][subdir] = contrib
 projects[field_extrawidgets][subdir] = contrib
+projects[field_formatter_class][subdir] = contrib
 projects[field_formatter_settings][subdir] = contrib
 projects[field_group][subdir] = contrib
 projects[field_injector][subdir] = contrib
@@ -233,6 +234,9 @@ projects[login_destination][subdir] = contrib
 projects[login_one_time][subdir] = contrib
 projects[mailchimp][subdir] = contrib
 projects[mailsystem][subdir] = contrib
+projects[masonry][subdir] = contrib
+projects[masonry_views][subdir] = contrib
+projects[maxlength][subdir] = contrib
 projects[media_soundcloud][subdir] = contrib
 projects[media_ustream][subdir] = contrib
 projects[media_vimeo][subdir] = contrib
@@ -250,6 +254,7 @@ projects[mobile_codes][subdir] = contrib
 projects[module_filter][subdir] = contrib
 projects[mollom][subdir] = contrib
 projects[multiform][subdir] = contrib
+projects[multiple_registration][subdir] = contrib
 projects[multiselect][subdir] = contrib
 projects[multiupload_filefield_widget][subdir] = contrib
 projects[multiupload_imagefield_widget][subdir] = contrib
@@ -382,7 +387,6 @@ projects[wysiwyg][subdir] = contrib
 projects[wysiwyg_filter][subdir] = contrib
 projects[xautoload][subdir] = contrib
 projects[xmlsitemap][subdir] = contrib
-
 
 ; Panels
 ; --------

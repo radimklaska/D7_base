@@ -80,3 +80,9 @@ libraries[dompdf][download][type] = "get"
 libraries[dompdf][download][url] = "http://dompdf.googlecode.com/files/dompdf_0-6-0_beta3.tar.gz"
 libraries[dompdf][directory_name] = "dompdf"
 libraries[dompdf][destination] = "libraries"
+
+libraries[masonry][download][type] = "file"
+libraries[masonry][download][url] = "https://npmcdn.com/masonry-layout@3.3.2/dist/masonry.pkgd.min.js"
+
+libraries[imagesloaded][download][type] = "file"
+libraries[imagesloaded][download][url] = "http://imagesloaded.desandro.com/imagesloaded.pkgd.min.js"
