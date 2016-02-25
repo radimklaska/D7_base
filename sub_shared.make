@@ -316,6 +316,7 @@ projects[search_facetapi][subdir] = contrib
 projects[search_krumo][subdir] = contrib
 projects[select_or_other][subdir] = contrib
 projects[seo_checklist][subdir] = contrib
+projects[service_container][subdir] = contrib
 projects[service_links][subdir] = contrib
 projects[shield][subdir] = contrib
 projects[shortcutperrole][subdir] = contrib
