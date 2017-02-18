@@ -43,8 +43,9 @@ libraries[cloud-zoom][download][url] = "http://www.professorcloud.com/downloads/
 libraries[cloud-zoom][directory_name] = "cloud-zoom"
 libraries[cloud-zoom][destination] = "libraries"
 
-libraries[autopager][download][type] = "file"
-libraries[autopager][download][url] = "http://jquery-autopager.googlecode.com/files/jquery.autopager-1.0.0.js"
+libraries[autopager][download][type] = "git"
+libraries[autopager][download][url] = "git@github.com:sagotsky/jquery-autopager.git"
+libraries[autopager][destination] = "libraries"
 
 libraries[plupload][download][type] = "file"
 libraries[plupload][download][url] = "https://github.com/moxiecode/plupload/archive/v1.5.8.zip"
@@ -76,7 +77,7 @@ libraries[fullcalendar][download][url] = "git://github.com/radimklaska/fullcalen
 libraries[fullcalendar][directory_name] = "fullcalendar"
 libraries[fullcalendar][destination] = "libraries"
 
-libraries[dompdf][download][type] = "get"
-libraries[dompdf][download][url] = "http://dompdf.googlecode.com/files/dompdf_0-6-0_beta3.tar.gz"
-libraries[dompdf][directory_name] = "dompdf"
+libraries[dompdf][download][type] = "git"
+libraries[dompdf][download][tag] = "v0.6.0-b3"
+libraries[dompdf][download][url] = "git@github.com:dompdf/dompdf.git"
 libraries[dompdf][destination] = "libraries"
