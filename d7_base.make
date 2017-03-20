@@ -14,20 +14,20 @@ projects[pressflow][download][url] = "git://github.com/pressflow/7.git"
 
 ; Custom modules and themes are located in separate make file (most of them are private).
 ; If you don't have access to those repos, just comment out following line:
-includes[klaska_customs] = "https://raw.github.com/radimklaska/D7_base/master/sub_klaska_customs.make"
+includes[klaska_customs] = "sub_klaska_customs.make"
 
 
 ; Modules and themes for all platforms
-includes[shared] = "https://raw.github.com/radimklaska/D7_base/master/sub_shared.make"
+includes[shared] = "sub_shared.make"
 
 
 ; Omega 4 theming suite
-includes[omega4] = "https://raw.github.com/radimklaska/D7_base/master/sub_omega4.make"
+includes[omega4] = "sub_omega4.make"
 
 
 ; Modules for Apache Solr enabled systems
-includes[solr] = "https://raw.github.com/radimklaska/D7_base/master/sub_solr.make"
+includes[solr] = "sub_solr.make"
 
 
 ; Libraries
-includes[libraries] = "https://raw.github.com/radimklaska/D7_base/master/sub_libraries.make"
+includes[libraries] = "sub_libraries.make"

@@ -1,0 +1,40 @@
+language: php
+sudo: false
+
+env:
+  - MAKEFILE="d7_commerce" DRUSH_VERSION="7.*"
+  - MAKEFILE="d7_commerce" DRUSH_VERSION="dev-master"
+  - MAKEFILE="d7_commerce_omega3" DRUSH_VERSION="7.*"
+  # We dont' need to build these. These are subset of *_commerce platforms.
+  #- MAKEFILE="d7_base" DRUSH_VERSION="7.*"
+  #- MAKEFILE="d7_base_omega3" DRUSH_VERSION="7.*"
+
+php:
+  - 5.6
+  - 7.0
+
+matrix:
+  fast_finish: true
+  allow_failures:
+    - php: 7.0
+
+before_install:
+  - export BASEDIR=${PWD}
+
+install:
+  # Update composer
+  - composer self-update
+
+  # Install drush globally
+  - composer global require drush/drush:$DRUSH_VERSION
+
+  # Add composer's global bin directory to the path
+  - export PATH="$HOME/.composer/vendor/bin:$PATH"
+
+before_script:
+  # Don't build from private repositories (at least for now)
+  - sed -i -e 's/includes\[klaska_customs/\#includes\[klaska_customs/g' d7_*.make
+
+script:
+  # Install Drupal
+  - drush make --prepare-install $MAKEFILE.make $BASEDIR/buildtest/$MAKEFILE
